@@ -1,0 +1,5486 @@
+{
+  "mainCategories": [
+    {
+      "name": "All",
+      "id": 0
+    },
+    {
+      "name": "Urban",
+      "id": 70001
+    },
+    {
+      "name": "Eastern",
+      "id": 70009
+    },
+    {
+      "name": "Games",
+      "id": 70008
+    },
+    {
+      "name": "Fantasy",
+      "id": 70002
+    },
+    {
+      "name": "Sci-fi",
+      "id": 70006
+    },
+    {
+      "name": "Horror",
+      "id": 70004
+    },
+    {
+      "name": "Sports",
+      "id": 70007
+    },
+    {
+      "name": "Action",
+      "id": 70012
+    },
+    {
+      "name": "War",
+      "id": 70013
+    },
+    {
+      "name": "Realistic",
+      "id": 70010
+    },
+    {
+      "name": "History",
+      "id": 70003
+    },
+    {
+      "name": "All",
+      "id": 0
+    },
+    {
+      "name": "Urban Romance",
+      "id": 70014
+    },
+    {
+      "name": "Fantasy Romance",
+      "id": 70016
+    },
+    {
+      "name": "History Romance",
+      "id": 70015
+    },
+    {
+      "name": "Teen",
+      "id": 70018
+    },
+    {
+      "name": "LGBT+",
+      "id": 70019
+    },
+    {
+      "name": "Sci-fi Romance",
+      "id": 70017
+    },
+    {
+      "name": "General Romance",
+      "id": 70005
+    }
+  ],
+  "tags": [
+    {
+      "tagId": 51011527,
+      "tagName": "#NAME?",
+      "type": "0"
+    },
+    {
+      "tagId": 51004865,
+      "tagName": "0 to hero",
+      "type": "0"
+    },
+    {
+      "tagId": 51010770,
+      "tagName": "1231234",
+      "type": "0"
+    },
+    {
+      "tagId": 51014007,
+      "tagName": "19th century",
+      "type": "0"
+    },
+    {
+      "tagId": 51003910,
+      "tagName": "1D",
+      "type": "0"
+    },
+    {
+      "tagId": 51005812,
+      "tagName": "1toe",
+      "type": "0"
+    },
+    {
+      "tagId": 51017331,
+      "tagName": "3Action",
+      "type": "0"
+    },
+    {
+      "tagId": 51003913,
+      "tagName": "5 Seconds Of Summer",
+      "type": "0"
+    },
+    {
+      "tagId": 51007335,
+      "tagName": "5 Wishes",
+      "type": "0"
+    },
+    {
+      "tagId": 51012400,
+      "tagName": "50",
+      "type": "0"
+    },
+    {
+      "tagId": 41006784,
+      "tagName": "5anarchy",
+      "type": "0"
+    },
+    {
+      "tagId": 51008560,
+      "tagName": "6339",
+      "type": "0"
+    },
+    {
+      "tagId": 51017463,
+      "tagName": "8I",
+      "type": "0"
+    },
+    {
+      "tagId": 51010380,
+      "tagName": "9 darkness",
+      "type": "0"
+    },
+    {
+      "tagId": 51001924,
+      "tagName": "@England",
+      "type": "0"
+    },
+    {
+      "tagId": 51006671,
+      "tagName": "@Exciting",
+      "type": "0"
+    },
+    {
+      "tagId": 51001627,
+      "tagName": "@fantasy",
+      "type": "0"
+    },
+    {
+      "tagId": 51002370,
+      "tagName": "@FantasyRomance @WebNovel2019",
+      "type": "0"
+    },
+    {
+      "tagId": 51014123,
+      "tagName": "@farafxdilx",
+      "type": "0"
+    },
+    {
+      "tagId": 51006668,
+      "tagName": "@Fiction",
+      "type": "0"
+    },
+    {
+      "tagId": 51007885,
+      "tagName": "@fiksi ilmiah",
+      "type": "0"
+    },
+    {
+      "tagId": 51007453,
+      "tagName": "@Fiksirealistik @romantce",
+      "type": "0"
+    },
+    {
+      "tagId": 51001930,
+      "tagName": "@Fire",
+      "type": "0"
+    },
+    {
+      "tagId": 51006672,
+      "tagName": "@HouseOfSapphire",
+      "type": "0"
+    },
+    {
+      "tagId": 51001923,
+      "tagName": "@India",
+      "type": "0"
+    },
+    {
+      "tagId": 51012438,
+      "tagName": "@KBlove2002",
+      "type": "0"
+    },
+    {
+      "tagId": 51001931,
+      "tagName": "@Lightning",
+      "type": "0"
+    },
+    {
+      "tagId": 51006607,
+      "tagName": "@love @romantic @romance",
+      "type": "0"
+    },
+    {
+      "tagId": 51006673,
+      "tagName": "@Luck",
+      "type": "0"
+    },
+    {
+      "tagId": 51014376,
+      "tagName": "@mystery",
+      "type": "0"
+    },
+    {
+      "tagId": 51021034,
+      "tagName": "@MysteryActionSystem",
+      "type": "0"
+    },
+    {
+      "tagId": 51010713,
+      "tagName": "@Namisha333",
+      "type": "0"
+    },
+    {
+      "tagId": 51001934,
+      "tagName": "@Ninja",
+      "type": "0"
+    },
+    {
+      "tagId": 51001922,
+      "tagName": "@Pakistan",
+      "type": "0"
+    },
+    {
+      "tagId": 51009821,
+      "tagName": "[Bloodline]",
+      "type": "0"
+    },
+    {
+      "tagId": 51007852,
+      "tagName": "A bit dark",
+      "type": "A"
+    },
+    {
+      "tagId": 51004455,
+      "tagName": "A Girl from My Dream",
+      "type": "A"
+    },
+    {
+      "tagId": 51008017,
+      "tagName": "abducted",
+      "type": "A"
+    },
+    {
+      "tagId": 51019895,
+      "tagName": "abussive",
+      "type": "A"
+    },
+    {
+      "tagId": 51020001,
+      "tagName": "Accelerator fanfic",
+      "type": "A"
+    },
+    {
+      "tagId": 41006569,
+      "tagName": "addictive",
+      "type": "A"
+    },
+    {
+      "tagId": 51011147,
+      "tagName": "Adel",
+      "type": "A"
+    },
+    {
+      "tagId": 51015578,
+      "tagName": "adikkakak",
+      "type": "A"
+    },
+    {
+      "tagId": 51005769,
+      "tagName": "adolescente",
+      "type": "A"
+    },
+    {
+      "tagId": 51014064,
+      "tagName": "Adopted Childre",
+      "type": "A"
+    },
+    {
+      "tagId": 51020972,
+      "tagName": "adventure poop",
+      "type": "A"
+    },
+    {
+      "tagId": 41006655,
+      "tagName": "adventurous",
+      "type": "A"
+    },
+    {
+      "tagId": 51005257,
+      "tagName": "Agharta",
+      "type": "A"
+    },
+    {
+      "tagId": 51020535,
+      "tagName": "Aid Companion",
+      "type": "A"
+    },
+    {
+      "tagId": 51006285,
+      "tagName": "aini",
+      "type": "A"
+    },
+    {
+      "tagId": 51019622,
+      "tagName": "All boys school",
+      "type": "A"
+    },
+    {
+      "tagId": 51009549,
+      "tagName": "All-genre mix",
+      "type": "A"
+    },
+    {
+      "tagId": 51017040,
+      "tagName": "Aloof CEO",
+      "type": "A"
+    },
+    {
+      "tagId": 51000995,
+      "tagName": "Always",
+      "type": "A"
+    },
+    {
+      "tagId": 51002423,
+      "tagName": "alwayspray",
+      "type": "A"
+    },
+    {
+      "tagId": 51011789,
+      "tagName": "Amensia",
+      "type": "A"
+    },
+    {
+      "tagId": 41004451,
+      "tagName": "AMNESIA",
+      "type": "A"
+    },
+    {
+      "tagId": 51002906,
+      "tagName": "Andres Bonifacio",
+      "type": "A"
+    },
+    {
+      "tagId": 51013677,
+      "tagName": "Angelanddevil",
+      "type": "A"
+    },
+    {
+      "tagId": 41005930,
+      "tagName": "Animal Protagonist",
+      "type": "A"
+    },
+    {
+      "tagId": 51019663,
+      "tagName": "animal shifters",
+      "type": "A"
+    },
+    {
+      "tagId": 51018630,
+      "tagName": "Anime-Manga-and-Novel Fanfic",
+      "type": "A"
+    },
+    {
+      "tagId": 41007015,
+      "tagName": "Annabeth",
+      "type": "A"
+    },
+    {
+      "tagId": 51021638,
+      "tagName": "Anthropomorophic",
+      "type": "A"
+    },
+    {
+      "tagId": 51020173,
+      "tagName": "anti-mc",
+      "type": "A"
+    },
+    {
+      "tagId": 51013337,
+      "tagName": "Antibullying",
+      "type": "A"
+    },
+    {
+      "tagId": 51013231,
+      "tagName": "Ao3",
+      "type": "A"
+    },
+    {
+      "tagId": 41002327,
+      "tagName": "ARMYBUILDING",
+      "type": "A"
+    },
+    {
+      "tagId": 51005554,
+      "tagName": "astronomy",
+      "type": "A"
+    },
+    {
+      "tagId": 51007131,
+      "tagName": "ate",
+      "type": "A"
+    },
+    {
+      "tagId": 51005181,
+      "tagName": "ATEEZXATINYs",
+      "type": "A"
+    },
+    {
+      "tagId": 51005340,
+      "tagName": "Avatar the Last Airbender",
+      "type": "A"
+    },
+    {
+      "tagId": 51000228,
+      "tagName": "Avdenture",
+      "type": "A"
+    },
+    {
+      "tagId": 51009311,
+      "tagName": "Azka Darmawan",
+      "type": "A"
+    },
+    {
+      "tagId": 51020338,
+      "tagName": "aztec",
+      "type": "A"
+    },
+    {
+      "tagId": 51004615,
+      "tagName": "backstabbing",
+      "type": "B"
+    },
+    {
+      "tagId": 41002803,
+      "tagName": "Bad boy",
+      "type": "B"
+    },
+    {
+      "tagId": 51001819,
+      "tagName": "Badass Female Lead",
+      "type": "B"
+    },
+    {
+      "tagId": 41002169,
+      "tagName": "BahasaIndonesia",
+      "type": "B"
+    },
+    {
+      "tagId": 51017552,
+      "tagName": "baifengjiu",
+      "type": "B"
+    },
+    {
+      "tagId": 51010813,
+      "tagName": "baja fantasia",
+      "type": "B"
+    },
+    {
+      "tagId": 51013397,
+      "tagName": "Bakery",
+      "type": "B"
+    },
+    {
+      "tagId": 51012885,
+      "tagName": "basement",
+      "type": "B"
+    },
+    {
+      "tagId": 51009234,
+      "tagName": "BBW",
+      "type": "B"
+    },
+    {
+      "tagId": 51005850,
+      "tagName": "bebas",
+      "type": "B"
+    },
+    {
+      "tagId": 51011223,
+      "tagName": "Bestiality",
+      "type": "B"
+    },
+    {
+      "tagId": 51003106,
+      "tagName": "beyblade shuxwakiya",
+      "type": "B"
+    },
+    {
+      "tagId": 51020671,
+      "tagName": "birth parents",
+      "type": "B"
+    },
+    {
+      "tagId": 51019643,
+      "tagName": "Bisexual Couples",
+      "type": "B"
+    },
+    {
+      "tagId": 51016079,
+      "tagName": "bitter",
+      "type": "B"
+    },
+    {
+      "tagId": 51014862,
+      "tagName": "bl references",
+      "type": "B"
+    },
+    {
+      "tagId": 51004136,
+      "tagName": "black-bellied female lead",
+      "type": "B"
+    },
+    {
+      "tagId": 51010575,
+      "tagName": "Blacknicaa",
+      "type": "B"
+    },
+    {
+      "tagId": 51010925,
+      "tagName": "blankong papel",
+      "type": "B"
+    },
+    {
+      "tagId": 51016681,
+      "tagName": "blogging",
+      "type": "B"
+    },
+    {
+      "tagId": 41004376,
+      "tagName": "blood",
+      "type": "B"
+    },
+    {
+      "tagId": 41000900,
+      "tagName": "Body cultivation",
+      "type": "B"
+    },
+    {
+      "tagId": 51005764,
+      "tagName": "Body Refinement",
+      "type": "B"
+    },
+    {
+      "tagId": 51016500,
+      "tagName": "Bondage and restriction",
+      "type": "B"
+    },
+    {
+      "tagId": 41007027,
+      "tagName": "Bounty",
+      "type": "B"
+    },
+    {
+      "tagId": 41003184,
+      "tagName": "BOYSLOVE",
+      "type": "B"
+    },
+    {
+      "tagId": 41003730,
+      "tagName": "Boyxboy",
+      "type": "B"
+    },
+    {
+      "tagId": 51013510,
+      "tagName": "Brasileiro",
+      "type": "B"
+    },
+    {
+      "tagId": 51003816,
+      "tagName": "Bravery of Alex Brett",
+      "type": "B"
+    },
+    {
+      "tagId": 51006979,
+      "tagName": "break-up love",
+      "type": "B"
+    },
+    {
+      "tagId": 51016626,
+      "tagName": "breath of the wild 2",
+      "type": "B"
+    },
+    {
+      "tagId": 51008523,
+      "tagName": "broadcasting",
+      "type": "B"
+    },
+    {
+      "tagId": 51010122,
+      "tagName": "brokenhearted love 2ndchance",
+      "type": "B"
+    },
+    {
+      "tagId": 51011205,
+      "tagName": "brothership",
+      "type": "B"
+    },
+    {
+      "tagId": 51002158,
+      "tagName": "Building an Empire",
+      "type": "B"
+    },
+    {
+      "tagId": 51017690,
+      "tagName": "bukan cerita biasa",
+      "type": "B"
+    },
+    {
+      "tagId": 51018236,
+      "tagName": "bulan",
+      "type": "B"
+    },
+    {
+      "tagId": 51021090,
+      "tagName": "bumble",
+      "type": "B"
+    },
+    {
+      "tagId": 51016452,
+      "tagName": "Business Man",
+      "type": "B"
+    },
+    {
+      "tagId": 51016653,
+      "tagName": "bxb yaoi",
+      "type": "B"
+    },
+    {
+      "tagId": 51009112,
+      "tagName": "Cacat",
+      "type": "C"
+    },
+    {
+      "tagId": 51011757,
+      "tagName": "Cat Noir",
+      "type": "C"
+    },
+    {
+      "tagId": 51002731,
+      "tagName": "CEO FL",
+      "type": "C"
+    },
+    {
+      "tagId": 51009138,
+      "tagName": "Cerai",
+      "type": "C"
+    },
+    {
+      "tagId": 51007726,
+      "tagName": "CeritaCinta",
+      "type": "C"
+    },
+    {
+      "tagId": 51004477,
+      "tagName": "ceritapanas",
+      "type": "C"
+    },
+    {
+      "tagId": 41005338,
+      "tagName": "Chefs",
+      "type": "C"
+    },
+    {
+      "tagId": 41000756,
+      "tagName": "Children",
+      "type": "C"
+    },
+    {
+      "tagId": 41003699,
+      "tagName": "chimera",
+      "type": "C"
+    },
+    {
+      "tagId": 51020208,
+      "tagName": "chinese-korean",
+      "type": "C"
+    },
+    {
+      "tagId": 41003211,
+      "tagName": "cicatrices",
+      "type": "C"
+    },
+    {
+      "tagId": 41006464,
+      "tagName": "Classic",
+      "type": "C"
+    },
+    {
+      "tagId": 51001027,
+      "tagName": "Cloud Girl",
+      "type": "C"
+    },
+    {
+      "tagId": 51018864,
+      "tagName": "clumsy",
+      "type": "C"
+    },
+    {
+      "tagId": 51014130,
+      "tagName": "Clumsy Female Lead",
+      "type": "C"
+    },
+    {
+      "tagId": 51003741,
+      "tagName": "cold ceo",
+      "type": "C"
+    },
+    {
+      "tagId": 51015571,
+      "tagName": "Colony",
+      "type": "C"
+    },
+    {
+      "tagId": 51002613,
+      "tagName": "comedy teasing",
+      "type": "C"
+    },
+    {
+      "tagId": 51000257,
+      "tagName": "Complicated Mc",
+      "type": "C"
+    },
+    {
+      "tagId": 51017615,
+      "tagName": "Complot",
+      "type": "C"
+    },
+    {
+      "tagId": 51000899,
+      "tagName": "confession",
+      "type": "C"
+    },
+    {
+      "tagId": 51010216,
+      "tagName": "Construção de Império",
+      "type": "C"
+    },
+    {
+      "tagId": 51020796,
+      "tagName": "consultant",
+      "type": "C"
+    },
+    {
+      "tagId": 51002330,
+      "tagName": "contractmarriage",
+      "type": "C"
+    },
+    {
+      "tagId": 51008356,
+      "tagName": "COODERE",
+      "type": "C"
+    },
+    {
+      "tagId": 41005122,
+      "tagName": "Corea",
+      "type": "C"
+    },
+    {
+      "tagId": 51004450,
+      "tagName": "corpse cultivator",
+      "type": "C"
+    },
+    {
+      "tagId": 51019827,
+      "tagName": "county",
+      "type": "C"
+    },
+    {
+      "tagId": 41004860,
+      "tagName": "Crazy MC",
+      "type": "C"
+    },
+    {
+      "tagId": 41004678,
+      "tagName": "Creative",
+      "type": "C"
+    },
+    {
+      "tagId": 51012330,
+      "tagName": "Creator avilities",
+      "type": "C"
+    },
+    {
+      "tagId": 51012330,
+      "tagName": "Creator avilities",
+      "type": "C"
+    },
+    {
+      "tagId": 41006335,
+      "tagName": "crossovers",
+      "type": "C"
+    },
+    {
+      "tagId": 51004032,
+      "tagName": "Cruel Female Lead",
+      "type": "C"
+    },
+    {
+      "tagId": 51004031,
+      "tagName": "Cruel MC",
+      "type": "C"
+    },
+    {
+      "tagId": 41000403,
+      "tagName": "crush",
+      "type": "C"
+    },
+    {
+      "tagId": 51012901,
+      "tagName": "crystals",
+      "type": "C"
+    },
+    {
+      "tagId": 41006230,
+      "tagName": "cullen",
+      "type": "C"
+    },
+    {
+      "tagId": 41006425,
+      "tagName": "CuteRomance",
+      "type": "C"
+    },
+    {
+      "tagId": 41003680,
+      "tagName": "Cyberpunk",
+      "type": "C"
+    },
+    {
+      "tagId": 51009614,
+      "tagName": "Dadzawa",
+      "type": "D"
+    },
+    {
+      "tagId": 41000650,
+      "tagName": "Dance",
+      "type": "D"
+    },
+    {
+      "tagId": 51004676,
+      "tagName": "Dancer",
+      "type": "D"
+    },
+    {
+      "tagId": 51002755,
+      "tagName": "Danganronpa",
+      "type": "D"
+    },
+    {
+      "tagId": 51007320,
+      "tagName": "dark fairy",
+      "type": "D"
+    },
+    {
+      "tagId": 41004344,
+      "tagName": "DarkFantasy",
+      "type": "D"
+    },
+    {
+      "tagId": 51013634,
+      "tagName": "Date a live",
+      "type": "D"
+    },
+    {
+      "tagId": 51013887,
+      "tagName": "Dean of a university",
+      "type": "D"
+    },
+    {
+      "tagId": 51005465,
+      "tagName": "deeply in love",
+      "type": "D"
+    },
+    {
+      "tagId": 41000662,
+      "tagName": "Deity",
+      "type": "D"
+    },
+    {
+      "tagId": 41003122,
+      "tagName": "deku",
+      "type": "D"
+    },
+    {
+      "tagId": 41004307,
+      "tagName": "deleted",
+      "type": "D"
+    },
+    {
+      "tagId": 51002915,
+      "tagName": "demisexual",
+      "type": "D"
+    },
+    {
+      "tagId": 51002193,
+      "tagName": "Demonic Beasts",
+      "type": "D"
+    },
+    {
+      "tagId": 51010642,
+      "tagName": "denis",
+      "type": "D"
+    },
+    {
+      "tagId": 51002044,
+      "tagName": "Deniz dan Salih",
+      "type": "D"
+    },
+    {
+      "tagId": 51011721,
+      "tagName": "depressedlance",
+      "type": "D"
+    },
+    {
+      "tagId": 41003878,
+      "tagName": "destiny",
+      "type": "D"
+    },
+    {
+      "tagId": 41003802,
+      "tagName": "Determination",
+      "type": "D"
+    },
+    {
+      "tagId": 51002962,
+      "tagName": "Devotion",
+      "type": "D"
+    },
+    {
+      "tagId": 51019178,
+      "tagName": "Diamond",
+      "type": "D"
+    },
+    {
+      "tagId": 41004194,
+      "tagName": "DID",
+      "type": "D"
+    },
+    {
+      "tagId": 51017152,
+      "tagName": "Different Anime",
+      "type": "D"
+    },
+    {
+      "tagId": 51019188,
+      "tagName": "different points of view",
+      "type": "D"
+    },
+    {
+      "tagId": 51006682,
+      "tagName": "Digimon",
+      "type": "D"
+    },
+    {
+      "tagId": 51006549,
+      "tagName": "Disciples",
+      "type": "D"
+    },
+    {
+      "tagId": 51006158,
+      "tagName": "DnD references",
+      "type": "D"
+    },
+    {
+      "tagId": 41005866,
+      "tagName": "dominatetheworld",
+      "type": "D"
+    },
+    {
+      "tagId": 51001140,
+      "tagName": "Dont Read",
+      "type": "D"
+    },
+    {
+      "tagId": 51020774,
+      "tagName": "Douluo",
+      "type": "D"
+    },
+    {
+      "tagId": 41005716,
+      "tagName": "DouluoDalu",
+      "type": "D"
+    },
+    {
+      "tagId": 51002490,
+      "tagName": "Drabbles",
+      "type": "D"
+    },
+    {
+      "tagId": 51018966,
+      "tagName": "Dragon Descendants",
+      "type": "D"
+    },
+    {
+      "tagId": 51018184,
+      "tagName": "dragon eggs",
+      "type": "D"
+    },
+    {
+      "tagId": 41000832,
+      "tagName": "Dragonball",
+      "type": "D"
+    },
+    {
+      "tagId": 41000789,
+      "tagName": "drama",
+      "type": "D"
+    },
+    {
+      "tagId": 41000687,
+      "tagName": "dsad",
+      "type": "D"
+    },
+    {
+      "tagId": 51007516,
+      "tagName": "dsc",
+      "type": "D"
+    },
+    {
+      "tagId": 51011612,
+      "tagName": "Duel Lead",
+      "type": "D"
+    },
+    {
+      "tagId": 51000646,
+      "tagName": "duty",
+      "type": "D"
+    },
+    {
+      "tagId": 41004905,
+      "tagName": "Eastern fantasy",
+      "type": "E"
+    },
+    {
+      "tagId": 41001131,
+      "tagName": "Eastern Fantasy",
+      "type": "E"
+    },
+    {
+      "tagId": 51017803,
+      "tagName": "Echo",
+      "type": "E"
+    },
+    {
+      "tagId": 51003944,
+      "tagName": "Edward elric x oc",
+      "type": "E"
+    },
+    {
+      "tagId": 51002912,
+      "tagName": "egotistic",
+      "type": "E"
+    },
+    {
+      "tagId": 41006792,
+      "tagName": "Elementals",
+      "type": "E"
+    },
+    {
+      "tagId": 51000827,
+      "tagName": "Elephant",
+      "type": "E"
+    },
+    {
+      "tagId": 51007100,
+      "tagName": "embalmer",
+      "type": "E"
+    },
+    {
+      "tagId": 51012959,
+      "tagName": "embarazo",
+      "type": "E"
+    },
+    {
+      "tagId": 41003408,
+      "tagName": "Emperors",
+      "type": "E"
+    },
+    {
+      "tagId": 41002763,
+      "tagName": "empire building",
+      "type": "E"
+    },
+    {
+      "tagId": 41005722,
+      "tagName": "Empowering",
+      "type": "E"
+    },
+    {
+      "tagId": 51006641,
+      "tagName": "Enchanting",
+      "type": "E"
+    },
+    {
+      "tagId": 51003509,
+      "tagName": "Endgame",
+      "type": "E"
+    },
+    {
+      "tagId": 41002785,
+      "tagName": "Enemies",
+      "type": "E"
+    },
+    {
+      "tagId": 51012059,
+      "tagName": "enemies become allies",
+      "type": "E"
+    },
+    {
+      "tagId": 51013496,
+      "tagName": "enemies become lovers",
+      "type": "E"
+    },
+    {
+      "tagId": 51018000,
+      "tagName": "Engineering Student",
+      "type": "E"
+    },
+    {
+      "tagId": 51005589,
+      "tagName": "ENGLISH STORY",
+      "type": "E"
+    },
+    {
+      "tagId": 51003081,
+      "tagName": "Entities",
+      "type": "E"
+    },
+    {
+      "tagId": 51011935,
+      "tagName": "escritora",
+      "type": "E"
+    },
+    {
+      "tagId": 51001368,
+      "tagName": "eunha",
+      "type": "E"
+    },
+    {
+      "tagId": 51014069,
+      "tagName": "evan",
+      "type": "E"
+    },
+    {
+      "tagId": 51014069,
+      "tagName": "evan",
+      "type": "E"
+    },
+    {
+      "tagId": 51008407,
+      "tagName": "Evangelion",
+      "type": "E"
+    },
+    {
+      "tagId": 51017890,
+      "tagName": "evanlee",
+      "type": "E"
+    },
+    {
+      "tagId": 51011130,
+      "tagName": "Everyone else",
+      "type": "E"
+    },
+    {
+      "tagId": 51006230,
+      "tagName": "Evil spirits",
+      "type": "E"
+    },
+    {
+      "tagId": 51008506,
+      "tagName": "evil-MC",
+      "type": "E"
+    },
+    {
+      "tagId": 51005523,
+      "tagName": "ex-wife",
+      "type": "E"
+    },
+    {
+      "tagId": 51006771,
+      "tagName": "exhusband",
+      "type": "E"
+    },
+    {
+      "tagId": 51018697,
+      "tagName": "existencial",
+      "type": "E"
+    },
+    {
+      "tagId": 51015437,
+      "tagName": "exo sehun",
+      "type": "E"
+    },
+    {
+      "tagId": 51011067,
+      "tagName": "Expedition",
+      "type": "E"
+    },
+    {
+      "tagId": 41006305,
+      "tagName": "Experiment",
+      "type": "E"
+    },
+    {
+      "tagId": 41003487,
+      "tagName": "Expert",
+      "type": "E"
+    },
+    {
+      "tagId": 51004006,
+      "tagName": "explicit senses",
+      "type": "E"
+    },
+    {
+      "tagId": 51000983,
+      "tagName": "Explicit Sex Scenes",
+      "type": "E"
+    },
+    {
+      "tagId": 41002253,
+      "tagName": "Exploration",
+      "type": "E"
+    },
+    {
+      "tagId": 51003950,
+      "tagName": "extraterrestrial",
+      "type": "E"
+    },
+    {
+      "tagId": 51021376,
+      "tagName": "Fablehaven",
+      "type": "F"
+    },
+    {
+      "tagId": 41005469,
+      "tagName": "Face Smacking x3",
+      "type": "F"
+    },
+    {
+      "tagId": 41004311,
+      "tagName": "FaceSmacking",
+      "type": "F"
+    },
+    {
+      "tagId": 51019193,
+      "tagName": "Faculdade",
+      "type": "F"
+    },
+    {
+      "tagId": 51008349,
+      "tagName": "Faible à fort",
+      "type": "F"
+    },
+    {
+      "tagId": 41003052,
+      "tagName": "Fakemarriage",
+      "type": "F"
+    },
+    {
+      "tagId": 51012620,
+      "tagName": "Family Bonds",
+      "type": "F"
+    },
+    {
+      "tagId": 51011462,
+      "tagName": "fanfic dxd",
+      "type": "F"
+    },
+    {
+      "tagId": 51015925,
+      "tagName": "Fantacy adventure",
+      "type": "F"
+    },
+    {
+      "tagId": 51000954,
+      "tagName": "Fantastic Four",
+      "type": "F"
+    },
+    {
+      "tagId": 51010907,
+      "tagName": "fantasy kingdom",
+      "type": "F"
+    },
+    {
+      "tagId": 51001737,
+      "tagName": "fast-paced romance",
+      "type": "F"
+    },
+    {
+      "tagId": 41001875,
+      "tagName": "fate",
+      "type": "F"
+    },
+    {
+      "tagId": 51008919,
+      "tagName": "Fate zero",
+      "type": "F"
+    },
+    {
+      "tagId": 51009953,
+      "tagName": "feel",
+      "type": "F"
+    },
+    {
+      "tagId": 41000119,
+      "tagName": "Female lead",
+      "type": "F"
+    },
+    {
+      "tagId": 51002118,
+      "tagName": "Female Lead Transition",
+      "type": "F"
+    },
+    {
+      "tagId": 41005455,
+      "tagName": "Female Master",
+      "type": "F"
+    },
+    {
+      "tagId": 41000005,
+      "tagName": "Female Protagonist",
+      "type": "F"
+    },
+    {
+      "tagId": 51019890,
+      "tagName": "Ffff",
+      "type": "F"
+    },
+    {
+      "tagId": 51018946,
+      "tagName": "FiGoV world",
+      "type": "F"
+    },
+    {
+      "tagId": 51010990,
+      "tagName": "figure skating",
+      "type": "F"
+    },
+    {
+      "tagId": 51019366,
+      "tagName": "Filipino Mythology",
+      "type": "F"
+    },
+    {
+      "tagId": 51019818,
+      "tagName": "Fire bender",
+      "type": "F"
+    },
+    {
+      "tagId": 51014500,
+      "tagName": "Firebound",
+      "type": "F"
+    },
+    {
+      "tagId": 41003570,
+      "tagName": "firstbook",
+      "type": "F"
+    },
+    {
+      "tagId": 41000352,
+      "tagName": "Firstlove",
+      "type": "F"
+    },
+    {
+      "tagId": 41006861,
+      "tagName": "Flowers",
+      "type": "F"
+    },
+    {
+      "tagId": 51011957,
+      "tagName": "Fluff Romance",
+      "type": "F"
+    },
+    {
+      "tagId": 51020522,
+      "tagName": "Fnatasy romance",
+      "type": "F"
+    },
+    {
+      "tagId": 41002740,
+      "tagName": "for fun",
+      "type": "F"
+    },
+    {
+      "tagId": 41004958,
+      "tagName": "forbidden",
+      "type": "F"
+    },
+    {
+      "tagId": 51013392,
+      "tagName": "forbrokepeoplelikeme",
+      "type": "F"
+    },
+    {
+      "tagId": 51020844,
+      "tagName": "Foreign Exchange Student",
+      "type": "F"
+    },
+    {
+      "tagId": 51020586,
+      "tagName": "frat",
+      "type": "F"
+    },
+    {
+      "tagId": 51009888,
+      "tagName": "friendly harem",
+      "type": "F"
+    },
+    {
+      "tagId": 51015978,
+      "tagName": "frieza",
+      "type": "F"
+    },
+    {
+      "tagId": 51016578,
+      "tagName": "Fuerte desde el principio",
+      "type": "F"
+    },
+    {
+      "tagId": 51005112,
+      "tagName": "fun-time",
+      "type": "F"
+    },
+    {
+      "tagId": 41003129,
+      "tagName": "furries",
+      "type": "F"
+    },
+    {
+      "tagId": 51015183,
+      "tagName": "Galatic Space",
+      "type": "G"
+    },
+    {
+      "tagId": 41001623,
+      "tagName": "game",
+      "type": "G"
+    },
+    {
+      "tagId": 41001066,
+      "tagName": "game elements",
+      "type": "G"
+    },
+    {
+      "tagId": 51018642,
+      "tagName": "Game Setting",
+      "type": "G"
+    },
+    {
+      "tagId": 41000591,
+      "tagName": "Game System",
+      "type": "G"
+    },
+    {
+      "tagId": 51011478,
+      "tagName": "Gamer system",
+      "type": "G"
+    },
+    {
+      "tagId": 51009906,
+      "tagName": "GamerXover",
+      "type": "G"
+    },
+    {
+      "tagId": 51012487,
+      "tagName": "GANDER BANDER",
+      "type": "G"
+    },
+    {
+      "tagId": 51010730,
+      "tagName": "gangs superpower violence",
+      "type": "G"
+    },
+    {
+      "tagId": 41002394,
+      "tagName": "gangsters",
+      "type": "G"
+    },
+    {
+      "tagId": 51002789,
+      "tagName": "gaypride",
+      "type": "G"
+    },
+    {
+      "tagId": 51014157,
+      "tagName": "Gemini",
+      "type": "G"
+    },
+    {
+      "tagId": 41005332,
+      "tagName": "Generals",
+      "type": "G"
+    },
+    {
+      "tagId": 41004299,
+      "tagName": "Genes",
+      "type": "G"
+    },
+    {
+      "tagId": 51011420,
+      "tagName": "Genreless",
+      "type": "G"
+    },
+    {
+      "tagId": 51019241,
+      "tagName": "Ger",
+      "type": "G"
+    },
+    {
+      "tagId": 51005231,
+      "tagName": "Getting back together",
+      "type": "G"
+    },
+    {
+      "tagId": 51017224,
+      "tagName": "Getting Drunk on Power",
+      "type": "G"
+    },
+    {
+      "tagId": 41001405,
+      "tagName": "ghost child",
+      "type": "G"
+    },
+    {
+      "tagId": 51003264,
+      "tagName": "ghost-like",
+      "type": "G"
+    },
+    {
+      "tagId": 41001407,
+      "tagName": "ghosts",
+      "type": "G"
+    },
+    {
+      "tagId": 51019838,
+      "tagName": "Girl Pretending to be Boy",
+      "type": "G"
+    },
+    {
+      "tagId": 51010102,
+      "tagName": "girl with brokenwings",
+      "type": "G"
+    },
+    {
+      "tagId": 51005835,
+      "tagName": "GLBT",
+      "type": "G"
+    },
+    {
+      "tagId": 51006529,
+      "tagName": "God-Goddess",
+      "type": "G"
+    },
+    {
+      "tagId": 51021313,
+      "tagName": "GohanXVados",
+      "type": "G"
+    },
+    {
+      "tagId": 51005566,
+      "tagName": "Golden Child",
+      "type": "G"
+    },
+    {
+      "tagId": 51003119,
+      "tagName": "Golem",
+      "type": "G"
+    },
+    {
+      "tagId": 41006172,
+      "tagName": "GoodDumbledore",
+      "type": "G"
+    },
+    {
+      "tagId": 51008497,
+      "tagName": "Goodgirls",
+      "type": "G"
+    },
+    {
+      "tagId": 51001837,
+      "tagName": "government",
+      "type": "G"
+    },
+    {
+      "tagId": 51003720,
+      "tagName": "graphic elements",
+      "type": "G"
+    },
+    {
+      "tagId": 41005309,
+      "tagName": "Great Translation",
+      "type": "G"
+    },
+    {
+      "tagId": 51001250,
+      "tagName": "Greek Goddesses",
+      "type": "G"
+    },
+    {
+      "tagId": 51000524,
+      "tagName": "group of 3",
+      "type": "G"
+    },
+    {
+      "tagId": 51007573,
+      "tagName": "Grow up",
+      "type": "G"
+    },
+    {
+      "tagId": 51018568,
+      "tagName": "Grudge",
+      "type": "G"
+    },
+    {
+      "tagId": 51012261,
+      "tagName": "Gruesome Scenes",
+      "type": "G"
+    },
+    {
+      "tagId": 51006059,
+      "tagName": "Gundam Build Fighters",
+      "type": "G"
+    },
+    {
+      "tagId": 41003176,
+      "tagName": "GX",
+      "type": "G"
+    },
+    {
+      "tagId": 41001302,
+      "tagName": "H-18",
+      "type": "H"
+    },
+    {
+      "tagId": 41000130,
+      "tagName": "Hack",
+      "type": "H"
+    },
+    {
+      "tagId": 51003427,
+      "tagName": "hadas",
+      "type": "H"
+    },
+    {
+      "tagId": 51002658,
+      "tagName": "Handsome Guy",
+      "type": "H"
+    },
+    {
+      "tagId": 41001254,
+      "tagName": "Handsome Protagonist",
+      "type": "H"
+    },
+    {
+      "tagId": 51011379,
+      "tagName": "harcore",
+      "type": "H"
+    },
+    {
+      "tagId": 51002771,
+      "tagName": "Hard Working Protagonist",
+      "type": "H"
+    },
+    {
+      "tagId": 51004909,
+      "tagName": "HardLife",
+      "type": "H"
+    },
+    {
+      "tagId": 41004992,
+      "tagName": "Haream",
+      "type": "H"
+    },
+    {
+      "tagId": 51000939,
+      "tagName": "heartbreking",
+      "type": "H"
+    },
+    {
+      "tagId": 41001488,
+      "tagName": "heartwarming",
+      "type": "H"
+    },
+    {
+      "tagId": 41000657,
+      "tagName": "Heaven",
+      "type": "H"
+    },
+    {
+      "tagId": 51004961,
+      "tagName": "heiresss",
+      "type": "H"
+    },
+    {
+      "tagId": 41005827,
+      "tagName": "Hero Complex MC",
+      "type": "H"
+    },
+    {
+      "tagId": 51020068,
+      "tagName": "hero to villain",
+      "type": "H"
+    },
+    {
+      "tagId": 41000362,
+      "tagName": "Hero vs Villain",
+      "type": "H"
+    },
+    {
+      "tagId": 51013744,
+      "tagName": "hero-killer",
+      "type": "H"
+    },
+    {
+      "tagId": 51019813,
+      "tagName": "Heroes and villains",
+      "type": "H"
+    },
+    {
+      "tagId": 51001938,
+      "tagName": "Heroine",
+      "type": "H"
+    },
+    {
+      "tagId": 51002476,
+      "tagName": "hi",
+      "type": "H"
+    },
+    {
+      "tagId": 41005222,
+      "tagName": "Hidden Abilities",
+      "type": "H"
+    },
+    {
+      "tagId": 51002433,
+      "tagName": "Hidden Capture Target",
+      "type": "H"
+    },
+    {
+      "tagId": 51005018,
+      "tagName": "high-school sex love romance",
+      "type": "H"
+    },
+    {
+      "tagId": 41005750,
+      "tagName": "highschoo",
+      "type": "H"
+    },
+    {
+      "tagId": 51012046,
+      "tagName": "Hiro",
+      "type": "H"
+    },
+    {
+      "tagId": 51003438,
+      "tagName": "hiroshima",
+      "type": "H"
+    },
+    {
+      "tagId": 51011228,
+      "tagName": "Historico",
+      "type": "H"
+    },
+    {
+      "tagId": 41005375,
+      "tagName": "Honest Protagonist",
+      "type": "H"
+    },
+    {
+      "tagId": 51000833,
+      "tagName": "horns",
+      "type": "H"
+    },
+    {
+      "tagId": 51007265,
+      "tagName": "Horror Scene",
+      "type": "H"
+    },
+    {
+      "tagId": 51020893,
+      "tagName": "Horror Wendigo supernatural",
+      "type": "H"
+    },
+    {
+      "tagId": 51018173,
+      "tagName": "horror-romance",
+      "type": "H"
+    },
+    {
+      "tagId": 51009352,
+      "tagName": "horroromcom mayward",
+      "type": "H"
+    },
+    {
+      "tagId": 41005207,
+      "tagName": "Hot-blooded Protagonist",
+      "type": "H"
+    },
+    {
+      "tagId": 51019737,
+      "tagName": "How not to summon a demon lord",
+      "type": "H"
+    },
+    {
+      "tagId": 51016258,
+      "tagName": "How to remove it",
+      "type": "H"
+    },
+    {
+      "tagId": 41002966,
+      "tagName": "human lead",
+      "type": "H"
+    },
+    {
+      "tagId": 51008547,
+      "tagName": "Hunger",
+      "type": "H"
+    },
+    {
+      "tagId": 41001693,
+      "tagName": "hurt",
+      "type": "H"
+    },
+    {
+      "tagId": 51003273,
+      "tagName": "Hypocrite Mc",
+      "type": "H"
+    },
+    {
+      "tagId": 51016270,
+      "tagName": "i am Superman a",
+      "type": "I"
+    },
+    {
+      "tagId": 51010644,
+      "tagName": "I beg of you",
+      "type": "I"
+    },
+    {
+      "tagId": 51003806,
+      "tagName": "I wish this was me",
+      "type": "I"
+    },
+    {
+      "tagId": 41004219,
+      "tagName": "ICantFallInLove",
+      "type": "I"
+    },
+    {
+      "tagId": 51018776,
+      "tagName": "Ice Devil Slayer",
+      "type": "I"
+    },
+    {
+      "tagId": 51007521,
+      "tagName": "IDGAF",
+      "type": "I"
+    },
+    {
+      "tagId": 51011173,
+      "tagName": "Idiot Student",
+      "type": "I"
+    },
+    {
+      "tagId": 51007084,
+      "tagName": "Idol Industry",
+      "type": "I"
+    },
+    {
+      "tagId": 51012058,
+      "tagName": "ikemen sengoku",
+      "type": "I"
+    },
+    {
+      "tagId": 51004426,
+      "tagName": "ilmiah",
+      "type": "I"
+    },
+    {
+      "tagId": 51016972,
+      "tagName": "Im on phone",
+      "type": "I"
+    },
+    {
+      "tagId": 51007312,
+      "tagName": "Immortal World",
+      "type": "I"
+    },
+    {
+      "tagId": 41006621,
+      "tagName": "imperialharem",
+      "type": "I"
+    },
+    {
+      "tagId": 51012164,
+      "tagName": "In disguise",
+      "type": "I"
+    },
+    {
+      "tagId": 41000341,
+      "tagName": "Incest",
+      "type": "I"
+    },
+    {
+      "tagId": 41000903,
+      "tagName": "incest",
+      "type": "I"
+    },
+    {
+      "tagId": 51011673,
+      "tagName": "Inconsistent MC",
+      "type": "I"
+    },
+    {
+      "tagId": 51004130,
+      "tagName": "incubusking",
+      "type": "I"
+    },
+    {
+      "tagId": 41005113,
+      "tagName": "indian",
+      "type": "I"
+    },
+    {
+      "tagId": 51013140,
+      "tagName": "indian china",
+      "type": "I"
+    },
+    {
+      "tagId": 51003066,
+      "tagName": "Indifferent Mc",
+      "type": "I"
+    },
+    {
+      "tagId": 51000562,
+      "tagName": "Individuality",
+      "type": "I"
+    },
+    {
+      "tagId": 51000507,
+      "tagName": "Infernal",
+      "type": "I"
+    },
+    {
+      "tagId": 51011670,
+      "tagName": "Informative",
+      "type": "I"
+    },
+    {
+      "tagId": 51006166,
+      "tagName": "Instincts",
+      "type": "I"
+    },
+    {
+      "tagId": 51001158,
+      "tagName": "Intense",
+      "type": "I"
+    },
+    {
+      "tagId": 41005304,
+      "tagName": "Interdimensional Travel",
+      "type": "I"
+    },
+    {
+      "tagId": 51006836,
+      "tagName": "International conspiracy",
+      "type": "I"
+    },
+    {
+      "tagId": 51006836,
+      "tagName": "International conspiracy",
+      "type": "I"
+    },
+    {
+      "tagId": 51019327,
+      "tagName": "interpol",
+      "type": "I"
+    },
+    {
+      "tagId": 51015343,
+      "tagName": "Introduction",
+      "type": "I"
+    },
+    {
+      "tagId": 41002424,
+      "tagName": "Invention",
+      "type": "I"
+    },
+    {
+      "tagId": 41002424,
+      "tagName": "Invention",
+      "type": "I"
+    },
+    {
+      "tagId": 51010975,
+      "tagName": "INVERTED BEAUTY",
+      "type": "I"
+    },
+    {
+      "tagId": 41002145,
+      "tagName": "Investigation",
+      "type": "I"
+    },
+    {
+      "tagId": 41004746,
+      "tagName": "ireland",
+      "type": "I"
+    },
+    {
+      "tagId": 51021212,
+      "tagName": "Iron-man",
+      "type": "I"
+    },
+    {
+      "tagId": 41006803,
+      "tagName": "Islamic",
+      "type": "I"
+    },
+    {
+      "tagId": 41002566,
+      "tagName": "island",
+      "type": "I"
+    },
+    {
+      "tagId": 51013363,
+      "tagName": "Izuku x Toga",
+      "type": "I"
+    },
+    {
+      "tagId": 41006880,
+      "tagName": "Jack",
+      "type": "J"
+    },
+    {
+      "tagId": 41005409,
+      "tagName": "Jack Of All Trades",
+      "type": "J"
+    },
+    {
+      "tagId": 51018368,
+      "tagName": "jackavery",
+      "type": "J"
+    },
+    {
+      "tagId": 41006887,
+      "tagName": "jacksepticeye",
+      "type": "J"
+    },
+    {
+      "tagId": 51012425,
+      "tagName": "Jade",
+      "type": "J"
+    },
+    {
+      "tagId": 51008970,
+      "tagName": "Jade eyes",
+      "type": "J"
+    },
+    {
+      "tagId": 51010080,
+      "tagName": "james heller",
+      "type": "J"
+    },
+    {
+      "tagId": 51010080,
+      "tagName": "james heller",
+      "type": "J"
+    },
+    {
+      "tagId": 51009363,
+      "tagName": "janggeunsuk",
+      "type": "J"
+    },
+    {
+      "tagId": 51021628,
+      "tagName": "janji setia",
+      "type": "J"
+    },
+    {
+      "tagId": 41000468,
+      "tagName": "Japanese",
+      "type": "J"
+    },
+    {
+      "tagId": 51009530,
+      "tagName": "Japanese setting",
+      "type": "J"
+    },
+    {
+      "tagId": 51020540,
+      "tagName": "Jaskier",
+      "type": "J"
+    },
+    {
+      "tagId": 51016186,
+      "tagName": "Jealous Male lead",
+      "type": "J"
+    },
+    {
+      "tagId": 51015482,
+      "tagName": "Jeon Jeongguk",
+      "type": "J"
+    },
+    {
+      "tagId": 51007219,
+      "tagName": "jeonghan",
+      "type": "J"
+    },
+    {
+      "tagId": 51014525,
+      "tagName": "JessicaDearia",
+      "type": "J"
+    },
+    {
+      "tagId": 51011026,
+      "tagName": "jeunesse",
+      "type": "J"
+    },
+    {
+      "tagId": 41000417,
+      "tagName": "jhope",
+      "type": "J"
+    },
+    {
+      "tagId": 51020596,
+      "tagName": "Jikook boyxboy jimin bts",
+      "type": "J"
+    },
+    {
+      "tagId": 51002196,
+      "tagName": "jiltedgroom",
+      "type": "J"
+    },
+    {
+      "tagId": 51009876,
+      "tagName": "jiminxreader",
+      "type": "J"
+    },
+    {
+      "tagId": 51007848,
+      "tagName": "jiwa",
+      "type": "J"
+    },
+    {
+      "tagId": 41002356,
+      "tagName": "JJBA",
+      "type": "J"
+    },
+    {
+      "tagId": 41005922,
+      "tagName": "JJBA",
+      "type": "J"
+    },
+    {
+      "tagId": 51006245,
+      "tagName": "JMia",
+      "type": "J"
+    },
+    {
+      "tagId": 51003108,
+      "tagName": "joker",
+      "type": "J"
+    },
+    {
+      "tagId": 41005748,
+      "tagName": "jonaxx",
+      "type": "J"
+    },
+    {
+      "tagId": 51005208,
+      "tagName": "joohyun Chanyeol redvelvet exo",
+      "type": "J"
+    },
+    {
+      "tagId": 41001861,
+      "tagName": "joven",
+      "type": "J"
+    },
+    {
+      "tagId": 51005896,
+      "tagName": "Joy",
+      "type": "J"
+    },
+    {
+      "tagId": 51005469,
+      "tagName": "joyuri",
+      "type": "J"
+    },
+    {
+      "tagId": 51004367,
+      "tagName": "Judge",
+      "type": "J"
+    },
+    {
+      "tagId": 51010050,
+      "tagName": "jungjaehyun",
+      "type": "J"
+    },
+    {
+      "tagId": 41001274,
+      "tagName": "Jungkook",
+      "type": "J"
+    },
+    {
+      "tagId": 51017884,
+      "tagName": "jurassicpark",
+      "type": "J"
+    },
+    {
+      "tagId": 41003308,
+      "tagName": "Just Essential",
+      "type": "J"
+    },
+    {
+      "tagId": 51019321,
+      "tagName": "Just some MHA fanfic",
+      "type": "J"
+    },
+    {
+      "tagId": 51011818,
+      "tagName": "jye",
+      "type": "J"
+    },
+    {
+      "tagId": 51005973,
+      "tagName": "JYP Entertainment",
+      "type": "J"
+    },
+    {
+      "tagId": 51011705,
+      "tagName": "kacchanxdeku",
+      "type": "K"
+    },
+    {
+      "tagId": 41005855,
+      "tagName": "kaito",
+      "type": "K"
+    },
+    {
+      "tagId": 41006308,
+      "tagName": "kakashi",
+      "type": "K"
+    },
+    {
+      "tagId": 41003791,
+      "tagName": "kaskus",
+      "type": "K"
+    },
+    {
+      "tagId": 51004282,
+      "tagName": "katsuki",
+      "type": "K"
+    },
+    {
+      "tagId": 51019250,
+      "tagName": "Kellic",
+      "type": "K"
+    },
+    {
+      "tagId": 51006446,
+      "tagName": "kelpie",
+      "type": "K"
+    },
+    {
+      "tagId": 51009806,
+      "tagName": "Ketegaran Hati",
+      "type": "K"
+    },
+    {
+      "tagId": 41006166,
+      "tagName": "khr",
+      "type": "K"
+    },
+    {
+      "tagId": 51007203,
+      "tagName": "kickass female",
+      "type": "K"
+    },
+    {
+      "tagId": 41000864,
+      "tagName": "kickass heroine",
+      "type": "K"
+    },
+    {
+      "tagId": 51006124,
+      "tagName": "killings",
+      "type": "K"
+    },
+    {
+      "tagId": 51019710,
+      "tagName": "Kimetsunoyaiba",
+      "type": "K"
+    },
+    {
+      "tagId": 51006336,
+      "tagName": "kimtaehyung",
+      "type": "K"
+    },
+    {
+      "tagId": 51007701,
+      "tagName": "kind female",
+      "type": "K"
+    },
+    {
+      "tagId": 41000262,
+      "tagName": "Kingdom Build",
+      "type": "K"
+    },
+    {
+      "tagId": 41002149,
+      "tagName": "kingdoms",
+      "type": "K"
+    },
+    {
+      "tagId": 51012935,
+      "tagName": "kinh dị",
+      "type": "K"
+    },
+    {
+      "tagId": 51001689,
+      "tagName": "Kino",
+      "type": "K"
+    },
+    {
+      "tagId": 41006839,
+      "tagName": "kira",
+      "type": "K"
+    },
+    {
+      "tagId": 41006839,
+      "tagName": "kira",
+      "type": "K"
+    },
+    {
+      "tagId": 51009514,
+      "tagName": "KIRARA",
+      "type": "K"
+    },
+    {
+      "tagId": 51016516,
+      "tagName": "Kirigakure",
+      "type": "K"
+    },
+    {
+      "tagId": 51007064,
+      "tagName": "Kirishima",
+      "type": "K"
+    },
+    {
+      "tagId": 41003008,
+      "tagName": "Kirito",
+      "type": "K"
+    },
+    {
+      "tagId": 51012980,
+      "tagName": "kisahrumahtangga",
+      "type": "K"
+    },
+    {
+      "tagId": 51014083,
+      "tagName": "kissing",
+      "type": "K"
+    },
+    {
+      "tagId": 51017579,
+      "tagName": "klyntar",
+      "type": "K"
+    },
+    {
+      "tagId": 51020681,
+      "tagName": "knightinshiningarmor",
+      "type": "K"
+    },
+    {
+      "tagId": 51004289,
+      "tagName": "kontemporer",
+      "type": "K"
+    },
+    {
+      "tagId": 51005826,
+      "tagName": "kontrak",
+      "type": "K"
+    },
+    {
+      "tagId": 41004185,
+      "tagName": "korean",
+      "type": "K"
+    },
+    {
+      "tagId": 51007599,
+      "tagName": "Korean boy",
+      "type": "K"
+    },
+    {
+      "tagId": 51020389,
+      "tagName": "korean character",
+      "type": "K"
+    },
+    {
+      "tagId": 51001943,
+      "tagName": "korean drama",
+      "type": "K"
+    },
+    {
+      "tagId": 51020725,
+      "tagName": "Korean Kingdom",
+      "type": "K"
+    },
+    {
+      "tagId": 51000505,
+      "tagName": "Korvi",
+      "type": "K"
+    },
+    {
+      "tagId": 51003429,
+      "tagName": "Krypton",
+      "type": "K"
+    },
+    {
+      "tagId": 51013942,
+      "tagName": "KUN-ANTA",
+      "type": "K"
+    },
+    {
+      "tagId": 51000919,
+      "tagName": "Kuudere",
+      "type": "K"
+    },
+    {
+      "tagId": 51005948,
+      "tagName": "ladies",
+      "type": "L"
+    },
+    {
+      "tagId": 51020458,
+      "tagName": "Lagdameo",
+      "type": "L"
+    },
+    {
+      "tagId": 51015522,
+      "tagName": "Lan Xichen",
+      "type": "L"
+    },
+    {
+      "tagId": 51016324,
+      "tagName": "Large Cast",
+      "type": "L"
+    },
+    {
+      "tagId": 51002620,
+      "tagName": "LBGT",
+      "type": "L"
+    },
+    {
+      "tagId": 51015689,
+      "tagName": "leeshinyoung",
+      "type": "L"
+    },
+    {
+      "tagId": 41005811,
+      "tagName": "legend of zelda",
+      "type": "L"
+    },
+    {
+      "tagId": 51008781,
+      "tagName": "Legendary Mechanic",
+      "type": "L"
+    },
+    {
+      "tagId": 41001602,
+      "tagName": "Legends",
+      "type": "L"
+    },
+    {
+      "tagId": 51009925,
+      "tagName": "Lethifold",
+      "type": "L"
+    },
+    {
+      "tagId": 41001898,
+      "tagName": "Level System",
+      "type": "L"
+    },
+    {
+      "tagId": 51021544,
+      "tagName": "LGBT boyxboy boyslove",
+      "type": "L"
+    },
+    {
+      "tagId": 51009390,
+      "tagName": "LGBT character",
+      "type": "L"
+    },
+    {
+      "tagId": 51015287,
+      "tagName": "LGBTIA",
+      "type": "L"
+    },
+    {
+      "tagId": 41006836,
+      "tagName": "LibraryofHeavensPath",
+      "type": "L"
+    },
+    {
+      "tagId": 51011492,
+      "tagName": "life is very important",
+      "type": "L"
+    },
+    {
+      "tagId": 51011335,
+      "tagName": "light-fantasy",
+      "type": "L"
+    },
+    {
+      "tagId": 51020780,
+      "tagName": "Lila",
+      "type": "L"
+    },
+    {
+      "tagId": 51012717,
+      "tagName": "Limangaraw",
+      "type": "L"
+    },
+    {
+      "tagId": 51011742,
+      "tagName": "Little Dark",
+      "type": "L"
+    },
+    {
+      "tagId": 41006793,
+      "tagName": "LittleSiblings",
+      "type": "L"
+    },
+    {
+      "tagId": 51008490,
+      "tagName": "Lives and lies",
+      "type": "L"
+    },
+    {
+      "tagId": 51007816,
+      "tagName": "llamas",
+      "type": "L"
+    },
+    {
+      "tagId": 51008284,
+      "tagName": "Locked Heart",
+      "type": "L"
+    },
+    {
+      "tagId": 41006743,
+      "tagName": "lol",
+      "type": "L"
+    },
+    {
+      "tagId": 41002157,
+      "tagName": "Loots",
+      "type": "L"
+    },
+    {
+      "tagId": 51017748,
+      "tagName": "losing weight",
+      "type": "L"
+    },
+    {
+      "tagId": 51009589,
+      "tagName": "Love Doting Interest",
+      "type": "L"
+    },
+    {
+      "tagId": 51006235,
+      "tagName": "Love Live",
+      "type": "L"
+    },
+    {
+      "tagId": 51021015,
+      "tagName": "love loveatfirstsightforbidden",
+      "type": "L"
+    },
+    {
+      "tagId": 51003023,
+      "tagName": "love romace family friends",
+      "type": "L"
+    },
+    {
+      "tagId": 51016917,
+      "tagName": "LOVE school love true love",
+      "type": "L"
+    },
+    {
+      "tagId": 41000792,
+      "tagName": "love triangle",
+      "type": "L"
+    },
+    {
+      "tagId": 41002939,
+      "tagName": "love tringle",
+      "type": "L"
+    },
+    {
+      "tagId": 51007749,
+      "tagName": "love trio",
+      "type": "L"
+    },
+    {
+      "tagId": 51002846,
+      "tagName": "love your life",
+      "type": "L"
+    },
+    {
+      "tagId": 51015126,
+      "tagName": "Love-And-War heartbreak",
+      "type": "L"
+    },
+    {
+      "tagId": 51017949,
+      "tagName": "lovehaterelationship fakelove",
+      "type": "L"
+    },
+    {
+      "tagId": 51004532,
+      "tagName": "loving ml",
+      "type": "L"
+    },
+    {
+      "tagId": 51008439,
+      "tagName": "Lujuria",
+      "type": "L"
+    },
+    {
+      "tagId": 41001167,
+      "tagName": "Madara",
+      "type": "M"
+    },
+    {
+      "tagId": 51006050,
+      "tagName": "Made in Louisiana by who dat",
+      "type": "M"
+    },
+    {
+      "tagId": 51019978,
+      "tagName": "Magecraft",
+      "type": "M"
+    },
+    {
+      "tagId": 51007226,
+      "tagName": "magi labyrinth",
+      "type": "M"
+    },
+    {
+      "tagId": 51007952,
+      "tagName": "Magic and a Tech",
+      "type": "M"
+    },
+    {
+      "tagId": 51003891,
+      "tagName": "Magical Beings",
+      "type": "M"
+    },
+    {
+      "tagId": 51004256,
+      "tagName": "Magical War",
+      "type": "M"
+    },
+    {
+      "tagId": 51009839,
+      "tagName": "Male and Female Leads",
+      "type": "M"
+    },
+    {
+      "tagId": 51001492,
+      "tagName": "Male fall in love first",
+      "type": "M"
+    },
+    {
+      "tagId": 41000700,
+      "tagName": "male lead",
+      "type": "M"
+    },
+    {
+      "tagId": 51021497,
+      "tagName": "MaLex",
+      "type": "M"
+    },
+    {
+      "tagId": 41003863,
+      "tagName": "MaleYandere",
+      "type": "M"
+    },
+    {
+      "tagId": 51001401,
+      "tagName": "marked ones",
+      "type": "M"
+    },
+    {
+      "tagId": 51013945,
+      "tagName": "marriagelyfe",
+      "type": "M"
+    },
+    {
+      "tagId": 41003810,
+      "tagName": "martial",
+      "type": "M"
+    },
+    {
+      "tagId": 51006630,
+      "tagName": "MC Kills",
+      "type": "M"
+    },
+    {
+      "tagId": 51013730,
+      "tagName": "MCStrong",
+      "type": "M"
+    },
+    {
+      "tagId": 51010099,
+      "tagName": "MDD",
+      "type": "M"
+    },
+    {
+      "tagId": 51008498,
+      "tagName": "Meangirls",
+      "type": "M"
+    },
+    {
+      "tagId": 51020594,
+      "tagName": "medis",
+      "type": "M"
+    },
+    {
+      "tagId": 51016647,
+      "tagName": "merope gaunt",
+      "type": "M"
+    },
+    {
+      "tagId": 51000854,
+      "tagName": "military action",
+      "type": "M"
+    },
+    {
+      "tagId": 51000931,
+      "tagName": "mine",
+      "type": "M"
+    },
+    {
+      "tagId": 51006253,
+      "tagName": "misadventures",
+      "type": "M"
+    },
+    {
+      "tagId": 51001520,
+      "tagName": "miswappystories",
+      "type": "M"
+    },
+    {
+      "tagId": 51017643,
+      "tagName": "Mobil koenigsegg Agera R",
+      "type": "M"
+    },
+    {
+      "tagId": 51005741,
+      "tagName": "ModenWorld",
+      "type": "M"
+    },
+    {
+      "tagId": 41005099,
+      "tagName": "Modern day",
+      "type": "M"
+    },
+    {
+      "tagId": 51002644,
+      "tagName": "moe",
+      "type": "M"
+    },
+    {
+      "tagId": 51007673,
+      "tagName": "Mokuton MC",
+      "type": "M"
+    },
+    {
+      "tagId": 41003968,
+      "tagName": "Monster Fanfic",
+      "type": "M"
+    },
+    {
+      "tagId": 51006604,
+      "tagName": "MSA",
+      "type": "M"
+    },
+    {
+      "tagId": 51003147,
+      "tagName": "my",
+      "type": "M"
+    },
+    {
+      "tagId": 51009269,
+      "tagName": "Mystery Drama love romance",
+      "type": "M"
+    },
+    {
+      "tagId": 51011980,
+      "tagName": "Mystery?",
+      "type": "M"
+    },
+    {
+      "tagId": 41005867,
+      "tagName": "mystrey",
+      "type": "M"
+    },
+    {
+      "tagId": 51004677,
+      "tagName": "Mytery-Thriller",
+      "type": "M"
+    },
+    {
+      "tagId": 41004752,
+      "tagName": "Mythical Beats",
+      "type": "M"
+    },
+    {
+      "tagId": 51014910,
+      "tagName": "Mythological Fantasy",
+      "type": "M"
+    },
+    {
+      "tagId": 51021281,
+      "tagName": "mythologie",
+      "type": "M"
+    },
+    {
+      "tagId": 41002227,
+      "tagName": "Name",
+      "type": "N"
+    },
+    {
+      "tagId": 51013581,
+      "tagName": "Nandani",
+      "type": "N"
+    },
+    {
+      "tagId": 51017444,
+      "tagName": "Naofumi",
+      "type": "N"
+    },
+    {
+      "tagId": 51012045,
+      "tagName": "Naruko",
+      "type": "N"
+    },
+    {
+      "tagId": 41002900,
+      "tagName": "naruto fanfiction",
+      "type": "N"
+    },
+    {
+      "tagId": 51018784,
+      "tagName": "Naruto System",
+      "type": "N"
+    },
+    {
+      "tagId": 51005886,
+      "tagName": "Nations",
+      "type": "N"
+    },
+    {
+      "tagId": 41007010,
+      "tagName": "Naughty",
+      "type": "N"
+    },
+    {
+      "tagId": 41005045,
+      "tagName": "NCIS",
+      "type": "N"
+    },
+    {
+      "tagId": 51003367,
+      "tagName": "nct dream",
+      "type": "N"
+    },
+    {
+      "tagId": 51010051,
+      "tagName": "nctlokal",
+      "type": "N"
+    },
+    {
+      "tagId": 41001120,
+      "tagName": "Near Future",
+      "type": "N"
+    },
+    {
+      "tagId": 51010046,
+      "tagName": "neko and master",
+      "type": "N"
+    },
+    {
+      "tagId": 51009764,
+      "tagName": "nether",
+      "type": "N"
+    },
+    {
+      "tagId": 41000343,
+      "tagName": "Netori",
+      "type": "N"
+    },
+    {
+      "tagId": 51000348,
+      "tagName": "new life",
+      "type": "N"
+    },
+    {
+      "tagId": 41000928,
+      "tagName": "New nation",
+      "type": "N"
+    },
+    {
+      "tagId": 41005104,
+      "tagName": "new story",
+      "type": "N"
+    },
+    {
+      "tagId": 41005131,
+      "tagName": "Newwriter",
+      "type": "N"
+    },
+    {
+      "tagId": 41003329,
+      "tagName": "Nice Celestial Dragons",
+      "type": "N"
+    },
+    {
+      "tagId": 51003090,
+      "tagName": "night",
+      "type": "N"
+    },
+    {
+      "tagId": 41002501,
+      "tagName": "nightmares",
+      "type": "N"
+    },
+    {
+      "tagId": 51009239,
+      "tagName": "No Kids Allowed",
+      "type": "N"
+    },
+    {
+      "tagId": 41004339,
+      "tagName": "No Romance",
+      "type": "N"
+    },
+    {
+      "tagId": 41004955,
+      "tagName": "No System",
+      "type": "N"
+    },
+    {
+      "tagId": 51006211,
+      "tagName": "nobel",
+      "type": "N"
+    },
+    {
+      "tagId": 41003135,
+      "tagName": "nobility",
+      "type": "N"
+    },
+    {
+      "tagId": 51013287,
+      "tagName": "Non-Romance",
+      "type": "N"
+    },
+    {
+      "tagId": 51000162,
+      "tagName": "Nonbinary Lead",
+      "type": "N"
+    },
+    {
+      "tagId": 51000746,
+      "tagName": "None",
+      "type": "N"
+    },
+    {
+      "tagId": 51012519,
+      "tagName": "Noobs",
+      "type": "N"
+    },
+    {
+      "tagId": 41003419,
+      "tagName": "North Gods",
+      "type": "N"
+    },
+    {
+      "tagId": 51020029,
+      "tagName": "Not An Antihero",
+      "type": "N"
+    },
+    {
+      "tagId": 51010548,
+      "tagName": "Not-LGBTQ",
+      "type": "N"
+    },
+    {
+      "tagId": 51012840,
+      "tagName": "novel pembunuhan misteri",
+      "type": "N"
+    },
+    {
+      "tagId": 51010762,
+      "tagName": "Novnov",
+      "type": "N"
+    },
+    {
+      "tagId": 51003057,
+      "tagName": "NPC Harem",
+      "type": "N"
+    },
+    {
+      "tagId": 51003057,
+      "tagName": "NPC Harem",
+      "type": "N"
+    },
+    {
+      "tagId": 41001678,
+      "tagName": "NTR",
+      "type": "N"
+    },
+    {
+      "tagId": 41006091,
+      "tagName": "Nun",
+      "type": "N"
+    },
+    {
+      "tagId": 51021193,
+      "tagName": "Object insertion",
+      "type": "O"
+    },
+    {
+      "tagId": 51003185,
+      "tagName": "OC Characters",
+      "type": "O"
+    },
+    {
+      "tagId": 51020637,
+      "tagName": "OC mentor",
+      "type": "O"
+    },
+    {
+      "tagId": 41002844,
+      "tagName": "Occultic Fiction",
+      "type": "O"
+    },
+    {
+      "tagId": 51018332,
+      "tagName": "Oda",
+      "type": "O"
+    },
+    {
+      "tagId": 41002262,
+      "tagName": "office",
+      "type": "O"
+    },
+    {
+      "tagId": 51006524,
+      "tagName": "old",
+      "type": "O"
+    },
+    {
+      "tagId": 51012434,
+      "tagName": "Old MC",
+      "type": "O"
+    },
+    {
+      "tagId": 51015884,
+      "tagName": "On Webtoon soon",
+      "type": "O"
+    },
+    {
+      "tagId": 51000661,
+      "tagName": "one by one",
+      "type": "O"
+    },
+    {
+      "tagId": 51001192,
+      "tagName": "One For All",
+      "type": "O"
+    },
+    {
+      "tagId": 51001608,
+      "tagName": "One Piece X Sword Art online",
+      "type": "O"
+    },
+    {
+      "tagId": 51012966,
+      "tagName": "one-night stand Filipino",
+      "type": "O"
+    },
+    {
+      "tagId": 41003942,
+      "tagName": "onepiece",
+      "type": "O"
+    },
+    {
+      "tagId": 51007384,
+      "tagName": "onlinegames",
+      "type": "O"
+    },
+    {
+      "tagId": 51007571,
+      "tagName": "oof?",
+      "type": "O"
+    },
+    {
+      "tagId": 51001897,
+      "tagName": "OP Female MC",
+      "type": "O"
+    },
+    {
+      "tagId": 41000560,
+      "tagName": "OPMC",
+      "type": "O"
+    },
+    {
+      "tagId": 41006712,
+      "tagName": "opportunity",
+      "type": "O"
+    },
+    {
+      "tagId": 41004938,
+      "tagName": "orderofthephoenix",
+      "type": "O"
+    },
+    {
+      "tagId": 51001110,
+      "tagName": "OrdinaryHannah",
+      "type": "O"
+    },
+    {
+      "tagId": 41001999,
+      "tagName": "Original Character",
+      "type": "O"
+    },
+    {
+      "tagId": 41001415,
+      "tagName": "original content",
+      "type": "O"
+    },
+    {
+      "tagId": 51005881,
+      "tagName": "originalfemaleMC",
+      "type": "O"
+    },
+    {
+      "tagId": 41004092,
+      "tagName": "originalwork",
+      "type": "O"
+    },
+    {
+      "tagId": 41006381,
+      "tagName": "OtherLifetimes",
+      "type": "O"
+    },
+    {
+      "tagId": 41005993,
+      "tagName": "Otherworld",
+      "type": "O"
+    },
+    {
+      "tagId": 51005461,
+      "tagName": "Outbreak",
+      "type": "O"
+    },
+    {
+      "tagId": 41000167,
+      "tagName": "OuterSpace",
+      "type": "O"
+    },
+    {
+      "tagId": 51008822,
+      "tagName": "Overbearing CEO",
+      "type": "O"
+    },
+    {
+      "tagId": 51008802,
+      "tagName": "Overpowerd Main Characters",
+      "type": "O"
+    },
+    {
+      "tagId": 51004921,
+      "tagName": "Overpowered Antagonist",
+      "type": "O"
+    },
+    {
+      "tagId": 51012991,
+      "tagName": "Overpowered Characters",
+      "type": "O"
+    },
+    {
+      "tagId": 51001690,
+      "tagName": "OVERPOWERED MALE LEAD",
+      "type": "O"
+    },
+    {
+      "tagId": 51012375,
+      "tagName": "Overpowered Mcs",
+      "type": "O"
+    },
+    {
+      "tagId": 51012375,
+      "tagName": "Overpowered Mcs",
+      "type": "O"
+    },
+    {
+      "tagId": 51013005,
+      "tagName": "Overpowered-MC",
+      "type": "O"
+    },
+    {
+      "tagId": 51016463,
+      "tagName": "Overpowered-More Overpowered",
+      "type": "O"
+    },
+    {
+      "tagId": 51006143,
+      "tagName": "Overprotective MC",
+      "type": "O"
+    },
+    {
+      "tagId": 51016233,
+      "tagName": "owls",
+      "type": "O"
+    },
+    {
+      "tagId": 51005291,
+      "tagName": "painful",
+      "type": "P"
+    },
+    {
+      "tagId": 51000203,
+      "tagName": "pamper",
+      "type": "P"
+    },
+    {
+      "tagId": 51009215,
+      "tagName": "Paparazzi",
+      "type": "P"
+    },
+    {
+      "tagId": 51021505,
+      "tagName": "Papyrus",
+      "type": "P"
+    },
+    {
+      "tagId": 51020028,
+      "tagName": "Paranoic",
+      "type": "P"
+    },
+    {
+      "tagId": 41002449,
+      "tagName": "Paranormal",
+      "type": "P"
+    },
+    {
+      "tagId": 51015591,
+      "tagName": "PAST LIFE REGRESSION",
+      "type": "P"
+    },
+    {
+      "tagId": 51021295,
+      "tagName": "pastelpalletes",
+      "type": "P"
+    },
+    {
+      "tagId": 41005100,
+      "tagName": "Patience",
+      "type": "P"
+    },
+    {
+      "tagId": 41003012,
+      "tagName": "Pegasus",
+      "type": "P"
+    },
+    {
+      "tagId": 51012870,
+      "tagName": "penguruskelas",
+      "type": "P"
+    },
+    {
+      "tagId": 51001003,
+      "tagName": "perempuan",
+      "type": "P"
+    },
+    {
+      "tagId": 51007370,
+      "tagName": "Perfectly Suited Couple",
+      "type": "P"
+    },
+    {
+      "tagId": 51005951,
+      "tagName": "perkosaan",
+      "type": "P"
+    },
+    {
+      "tagId": 51005391,
+      "tagName": "Persephone",
+      "type": "P"
+    },
+    {
+      "tagId": 51003810,
+      "tagName": "Persona",
+      "type": "P"
+    },
+    {
+      "tagId": 51021101,
+      "tagName": "Pirate Princess",
+      "type": "P"
+    },
+    {
+      "tagId": 51017020,
+      "tagName": "Pirates of the Caribbean",
+      "type": "P"
+    },
+    {
+      "tagId": 51013076,
+      "tagName": "Plot-Twist",
+      "type": "P"
+    },
+    {
+      "tagId": 41000309,
+      "tagName": "Poetry",
+      "type": "P"
+    },
+    {
+      "tagId": 41000548,
+      "tagName": "Pokemon World",
+      "type": "P"
+    },
+    {
+      "tagId": 51015695,
+      "tagName": "pokemonadventures",
+      "type": "P"
+    },
+    {
+      "tagId": 41002937,
+      "tagName": "polyamory",
+      "type": "P"
+    },
+    {
+      "tagId": 51018419,
+      "tagName": "Portages-d-ace",
+      "type": "P"
+    },
+    {
+      "tagId": 51011393,
+      "tagName": "posesivo",
+      "type": "P"
+    },
+    {
+      "tagId": 51015119,
+      "tagName": "Possesion",
+      "type": "P"
+    },
+    {
+      "tagId": 41005786,
+      "tagName": "possesive character",
+      "type": "P"
+    },
+    {
+      "tagId": 41003558,
+      "tagName": "post-apocalyptic",
+      "type": "P"
+    },
+    {
+      "tagId": 51002465,
+      "tagName": "Power Eyes",
+      "type": "P"
+    },
+    {
+      "tagId": 51012215,
+      "tagName": "powerful dominant ml",
+      "type": "P"
+    },
+    {
+      "tagId": 51013460,
+      "tagName": "pr2",
+      "type": "P"
+    },
+    {
+      "tagId": 51021307,
+      "tagName": "pribadi",
+      "type": "P"
+    },
+    {
+      "tagId": 51005121,
+      "tagName": "professor student",
+      "type": "P"
+    },
+    {
+      "tagId": 51003794,
+      "tagName": "Progression",
+      "type": "P"
+    },
+    {
+      "tagId": 51007934,
+      "tagName": "prophecy child",
+      "type": "P"
+    },
+    {
+      "tagId": 51012460,
+      "tagName": "Psionic",
+      "type": "P"
+    },
+    {
+      "tagId": 51014741,
+      "tagName": "Psychics",
+      "type": "P"
+    },
+    {
+      "tagId": 41003102,
+      "tagName": "Puppy",
+      "type": "P"
+    },
+    {
+      "tagId": 51002296,
+      "tagName": "pve",
+      "type": "P"
+    },
+    {
+      "tagId": 51017715,
+      "tagName": "PWP",
+      "type": "P"
+    },
+    {
+      "tagId": 51004900,
+      "tagName": "qarly",
+      "type": "Q"
+    },
+    {
+      "tagId": 51004900,
+      "tagName": "qarly",
+      "type": "Q"
+    },
+    {
+      "tagId": 51007611,
+      "tagName": "Qinggong",
+      "type": "Q"
+    },
+    {
+      "tagId": 51007611,
+      "tagName": "Qinggong",
+      "type": "Q"
+    },
+    {
+      "tagId": 51020885,
+      "tagName": "Qoutes",
+      "type": "Q"
+    },
+    {
+      "tagId": 51008799,
+      "tagName": "Qqq",
+      "type": "Q"
+    },
+    {
+      "tagId": 41006258,
+      "tagName": "QT",
+      "type": "Q"
+    },
+    {
+      "tagId": 41003432,
+      "tagName": "quantum",
+      "type": "Q"
+    },
+    {
+      "tagId": 51005816,
+      "tagName": "Queen and King",
+      "type": "Q"
+    },
+    {
+      "tagId": 51001981,
+      "tagName": "Queendom building",
+      "type": "Q"
+    },
+    {
+      "tagId": 51004498,
+      "tagName": "Queens",
+      "type": "Q"
+    },
+    {
+      "tagId": 51004498,
+      "tagName": "Queens",
+      "type": "Q"
+    },
+    {
+      "tagId": 51014476,
+      "tagName": "Querencia",
+      "type": "Q"
+    },
+    {
+      "tagId": 41002291,
+      "tagName": "Quest",
+      "type": "Q"
+    },
+    {
+      "tagId": 41002291,
+      "tagName": "Quest",
+      "type": "Q"
+    },
+    {
+      "tagId": 41002963,
+      "tagName": "quest for power",
+      "type": "Q"
+    },
+    {
+      "tagId": 51019948,
+      "tagName": "questons",
+      "type": "Q"
+    },
+    {
+      "tagId": 51019948,
+      "tagName": "questons",
+      "type": "Q"
+    },
+    {
+      "tagId": 41000798,
+      "tagName": "Quests",
+      "type": "Q"
+    },
+    {
+      "tagId": 51017824,
+      "tagName": "Quezon City Philippines",
+      "type": "Q"
+    },
+    {
+      "tagId": 51005700,
+      "tagName": "Quick Growth",
+      "type": "Q"
+    },
+    {
+      "tagId": 41003728,
+      "tagName": "quick transmigration",
+      "type": "Q"
+    },
+    {
+      "tagId": 51019983,
+      "tagName": "Quicksilver",
+      "type": "Q"
+    },
+    {
+      "tagId": 41000205,
+      "tagName": "QUICKTRANSMIGRATING",
+      "type": "Q"
+    },
+    {
+      "tagId": 41005559,
+      "tagName": "QuickTransmigration",
+      "type": "Q"
+    },
+    {
+      "tagId": 51018992,
+      "tagName": "Quiet Protagonists",
+      "type": "Q"
+    },
+    {
+      "tagId": 51001107,
+      "tagName": "QuietMC",
+      "type": "Q"
+    },
+    {
+      "tagId": 41006862,
+      "tagName": "quiettown",
+      "type": "Q"
+    },
+    {
+      "tagId": 41006862,
+      "tagName": "quiettown",
+      "type": "Q"
+    },
+    {
+      "tagId": 51005117,
+      "tagName": "Quillon",
+      "type": "Q"
+    },
+    {
+      "tagId": 51004825,
+      "tagName": "QuirkIzuku",
+      "type": "Q"
+    },
+    {
+      "tagId": 51020636,
+      "tagName": "quirkless Izuku",
+      "type": "Q"
+    },
+    {
+      "tagId": 51020636,
+      "tagName": "quirkless Izuku",
+      "type": "Q"
+    },
+    {
+      "tagId": 41004365,
+      "tagName": "Quirks",
+      "type": "Q"
+    },
+    {
+      "tagId": 41006479,
+      "tagName": "quirks",
+      "type": "Q"
+    },
+    {
+      "tagId": 51014192,
+      "tagName": "Quirky",
+      "type": "Q"
+    },
+    {
+      "tagId": 41005186,
+      "tagName": "Quirky Characters",
+      "type": "Q"
+    },
+    {
+      "tagId": 51003955,
+      "tagName": "quote",
+      "type": "Q"
+    },
+    {
+      "tagId": 51000472,
+      "tagName": "Quotes",
+      "type": "Q"
+    },
+    {
+      "tagId": 51014021,
+      "tagName": "Quotev",
+      "type": "Q"
+    },
+    {
+      "tagId": 51013969,
+      "tagName": "R-18 Harem atgfanfic",
+      "type": "R"
+    },
+    {
+      "tagId": 51013969,
+      "tagName": "R-18 Harem atgfanfic",
+      "type": "R"
+    },
+    {
+      "tagId": 51012610,
+      "tagName": "R-18?",
+      "type": "R"
+    },
+    {
+      "tagId": 41005465,
+      "tagName": "Radio Host",
+      "type": "R"
+    },
+    {
+      "tagId": 51018936,
+      "tagName": "ramalan",
+      "type": "R"
+    },
+    {
+      "tagId": 51017819,
+      "tagName": "re-telling",
+      "type": "R"
+    },
+    {
+      "tagId": 51004892,
+      "tagName": "Real ePublisher",
+      "type": "R"
+    },
+    {
+      "tagId": 41005510,
+      "tagName": "real world",
+      "type": "R"
+    },
+    {
+      "tagId": 51004004,
+      "tagName": "realm l",
+      "type": "R"
+    },
+    {
+      "tagId": 41000885,
+      "tagName": "rebirth",
+      "type": "R"
+    },
+    {
+      "tagId": 51007853,
+      "tagName": "Rebith",
+      "type": "R"
+    },
+    {
+      "tagId": 51015094,
+      "tagName": "Red Velvet",
+      "type": "R"
+    },
+    {
+      "tagId": 41006494,
+      "tagName": "Regret",
+      "type": "R"
+    },
+    {
+      "tagId": 51008920,
+      "tagName": "Reincarnation romance",
+      "type": "R"
+    },
+    {
+      "tagId": 51006558,
+      "tagName": "Reingkarnasi",
+      "type": "R"
+    },
+    {
+      "tagId": 51014765,
+      "tagName": "relation",
+      "type": "R"
+    },
+    {
+      "tagId": 51020881,
+      "tagName": "remaja masa SMA",
+      "type": "R"
+    },
+    {
+      "tagId": 51020881,
+      "tagName": "remaja masa SMA",
+      "type": "R"
+    },
+    {
+      "tagId": 51005643,
+      "tagName": "Remoire",
+      "type": "R"
+    },
+    {
+      "tagId": 51007374,
+      "tagName": "Restart",
+      "type": "R"
+    },
+    {
+      "tagId": 51017731,
+      "tagName": "Retro-Futurism",
+      "type": "R"
+    },
+    {
+      "tagId": 51006034,
+      "tagName": "revenge body",
+      "type": "R"
+    },
+    {
+      "tagId": 51017849,
+      "tagName": "Rey",
+      "type": "R"
+    },
+    {
+      "tagId": 41006853,
+      "tagName": "Rianolinon",
+      "type": "R"
+    },
+    {
+      "tagId": 41000441,
+      "tagName": "roaring twenties",
+      "type": "R"
+    },
+    {
+      "tagId": 41002857,
+      "tagName": "rogue",
+      "type": "R"
+    },
+    {
+      "tagId": 41002857,
+      "tagName": "rogue",
+      "type": "R"
+    },
+    {
+      "tagId": 41004436,
+      "tagName": "rom-com",
+      "type": "R"
+    },
+    {
+      "tagId": 51012217,
+      "tagName": "romace revenge parenting",
+      "type": "R"
+    },
+    {
+      "tagId": 51007924,
+      "tagName": "Romace yaoi",
+      "type": "R"
+    },
+    {
+      "tagId": 41000149,
+      "tagName": "Romance Fiction",
+      "type": "R"
+    },
+    {
+      "tagId": 51008231,
+      "tagName": "Romance sub-plot",
+      "type": "R"
+    },
+    {
+      "tagId": 51008866,
+      "tagName": "romance19",
+      "type": "R"
+    },
+    {
+      "tagId": 51020920,
+      "tagName": "Rpg Online virtual mmorpg game",
+      "type": "R"
+    },
+    {
+      "tagId": 51017939,
+      "tagName": "Rudeguy",
+      "type": "R"
+    },
+    {
+      "tagId": 51004558,
+      "tagName": "Rudy",
+      "type": "R"
+    },
+    {
+      "tagId": 51013749,
+      "tagName": "runaway girl",
+      "type": "R"
+    },
+    {
+      "tagId": 41002995,
+      "tagName": "Ruthless MC",
+      "type": "R"
+    },
+    {
+      "tagId": 51011693,
+      "tagName": "Ruthless to enemies MC",
+      "type": "R"
+    },
+    {
+      "tagId": 41004865,
+      "tagName": "rwby",
+      "type": "R"
+    },
+    {
+      "tagId": 51012645,
+      "tagName": "sad-endings",
+      "type": "S"
+    },
+    {
+      "tagId": 51000826,
+      "tagName": "sadending",
+      "type": "S"
+    },
+    {
+      "tagId": 51010851,
+      "tagName": "sadgirls",
+      "type": "S"
+    },
+    {
+      "tagId": 51016538,
+      "tagName": "Sadis",
+      "type": "S"
+    },
+    {
+      "tagId": 41005678,
+      "tagName": "Sadism",
+      "type": "S"
+    },
+    {
+      "tagId": 51000412,
+      "tagName": "Sadist",
+      "type": "S"
+    },
+    {
+      "tagId": 41003617,
+      "tagName": "sadistic",
+      "type": "S"
+    },
+    {
+      "tagId": 51013052,
+      "tagName": "Sadistic Character",
+      "type": "S"
+    },
+    {
+      "tagId": 51016472,
+      "tagName": "Sadistic Characters",
+      "type": "S"
+    },
+    {
+      "tagId": 51009624,
+      "tagName": "Sadistic MC",
+      "type": "S"
+    },
+    {
+      "tagId": 51016433,
+      "tagName": "Sadistic Protagonist",
+      "type": "S"
+    },
+    {
+      "tagId": 41006213,
+      "tagName": "SadisticMC",
+      "type": "S"
+    },
+    {
+      "tagId": 41005823,
+      "tagName": "sadisticML",
+      "type": "S"
+    },
+    {
+      "tagId": 51017894,
+      "tagName": "sadlife",
+      "type": "S"
+    },
+    {
+      "tagId": 51004035,
+      "tagName": "sadlovestory",
+      "type": "S"
+    },
+    {
+      "tagId": 51020945,
+      "tagName": "Sadly",
+      "type": "S"
+    },
+    {
+      "tagId": 41006561,
+      "tagName": "Sadlyfe",
+      "type": "S"
+    },
+    {
+      "tagId": 51002371,
+      "tagName": "sadness",
+      "type": "S"
+    },
+    {
+      "tagId": 51020104,
+      "tagName": "Sadness Sources",
+      "type": "S"
+    },
+    {
+      "tagId": 41004890,
+      "tagName": "Sadodere",
+      "type": "S"
+    },
+    {
+      "tagId": 51018094,
+      "tagName": "sadomasochism",
+      "type": "S"
+    },
+    {
+      "tagId": 51004653,
+      "tagName": "savagegirl",
+      "type": "S"
+    },
+    {
+      "tagId": 41003440,
+      "tagName": "Scheme and Conspiracy",
+      "type": "S"
+    },
+    {
+      "tagId": 51018937,
+      "tagName": "School boss",
+      "type": "S"
+    },
+    {
+      "tagId": 51017399,
+      "tagName": "school life romance",
+      "type": "S"
+    },
+    {
+      "tagId": 41000186,
+      "tagName": "SCI-FI",
+      "type": "S"
+    },
+    {
+      "tagId": 41002220,
+      "tagName": "Scifi",
+      "type": "S"
+    },
+    {
+      "tagId": 51017879,
+      "tagName": "Sector-Divided World",
+      "type": "S"
+    },
+    {
+      "tagId": 51010684,
+      "tagName": "SEJEONG",
+      "type": "S"
+    },
+    {
+      "tagId": 51005390,
+      "tagName": "Self-Created Skills",
+      "type": "S"
+    },
+    {
+      "tagId": 41001977,
+      "tagName": "Self-insert",
+      "type": "S"
+    },
+    {
+      "tagId": 41005275,
+      "tagName": "Selfish Protagonist",
+      "type": "S"
+    },
+    {
+      "tagId": 51014535,
+      "tagName": "Sensation",
+      "type": "S"
+    },
+    {
+      "tagId": 41006881,
+      "tagName": "septiplier",
+      "type": "S"
+    },
+    {
+      "tagId": 51017856,
+      "tagName": "Socializing",
+      "type": "S"
+    },
+    {
+      "tagId": 41001421,
+      "tagName": "Spiderman",
+      "type": "S"
+    },
+    {
+      "tagId": 41006931,
+      "tagName": "Spritual",
+      "type": "S"
+    },
+    {
+      "tagId": 51012712,
+      "tagName": "sticks",
+      "type": "S"
+    },
+    {
+      "tagId": 41000996,
+      "tagName": "strong female",
+      "type": "S"
+    },
+    {
+      "tagId": 51017544,
+      "tagName": "supports",
+      "type": "S"
+    },
+    {
+      "tagId": 51005406,
+      "tagName": "taeyeon",
+      "type": "T"
+    },
+    {
+      "tagId": 51000377,
+      "tagName": "Tamriel",
+      "type": "T"
+    },
+    {
+      "tagId": 51007246,
+      "tagName": "taylorswift",
+      "type": "T"
+    },
+    {
+      "tagId": 41005399,
+      "tagName": "Team Battle",
+      "type": "T"
+    },
+    {
+      "tagId": 41002597,
+      "tagName": "Team fights",
+      "type": "T"
+    },
+    {
+      "tagId": 51006818,
+      "tagName": "tearjerker",
+      "type": "T"
+    },
+    {
+      "tagId": 51018899,
+      "tagName": "teenager family love sad",
+      "type": "T"
+    },
+    {
+      "tagId": 51015745,
+      "tagName": "teenfiction academy music",
+      "type": "T"
+    },
+    {
+      "tagId": 51014567,
+      "tagName": "teenfiction tagalog",
+      "type": "T"
+    },
+    {
+      "tagId": 51004161,
+      "tagName": "Telekenetic",
+      "type": "T"
+    },
+    {
+      "tagId": 51009998,
+      "tagName": "terjemahan",
+      "type": "T"
+    },
+    {
+      "tagId": 51013622,
+      "tagName": "teroris",
+      "type": "T"
+    },
+    {
+      "tagId": 51012360,
+      "tagName": "The Five Great Elements",
+      "type": "T"
+    },
+    {
+      "tagId": 41003650,
+      "tagName": "The Gamer",
+      "type": "T"
+    },
+    {
+      "tagId": 41002789,
+      "tagName": "The Gamer",
+      "type": "T"
+    },
+    {
+      "tagId": 51008406,
+      "tagName": "the multiverse",
+      "type": "T"
+    },
+    {
+      "tagId": 51006267,
+      "tagName": "TheBoyz",
+      "type": "T"
+    },
+    {
+      "tagId": 51001454,
+      "tagName": "Thirteen",
+      "type": "T"
+    },
+    {
+      "tagId": 51020265,
+      "tagName": "this novel?",
+      "type": "T"
+    },
+    {
+      "tagId": 51017032,
+      "tagName": "THISISAJOKE",
+      "type": "T"
+    },
+    {
+      "tagId": 51017262,
+      "tagName": "ThisIsNotLove",
+      "type": "T"
+    },
+    {
+      "tagId": 41000145,
+      "tagName": "Thriller",
+      "type": "T"
+    },
+    {
+      "tagId": 51015531,
+      "tagName": "thriller game horror",
+      "type": "T"
+    },
+    {
+      "tagId": 51013449,
+      "tagName": "thriller suspense mystery",
+      "type": "T"
+    },
+    {
+      "tagId": 41005939,
+      "tagName": "Thrilling",
+      "type": "T"
+    },
+    {
+      "tagId": 51006893,
+      "tagName": "thunderbirds",
+      "type": "T"
+    },
+    {
+      "tagId": 41004320,
+      "tagName": "Time Jumps",
+      "type": "T"
+    },
+    {
+      "tagId": 51014874,
+      "tagName": "To see",
+      "type": "T"
+    },
+    {
+      "tagId": 51004849,
+      "tagName": "Training wheel system",
+      "type": "T"
+    },
+    {
+      "tagId": 51014673,
+      "tagName": "Tranmigrated",
+      "type": "T"
+    },
+    {
+      "tagId": 51018620,
+      "tagName": "trap or femboy MC",
+      "type": "T"
+    },
+    {
+      "tagId": 51013675,
+      "tagName": "trianglelove",
+      "type": "T"
+    },
+    {
+      "tagId": 41006018,
+      "tagName": "TrollsMakingTags",
+      "type": "T"
+    },
+    {
+      "tagId": 51019641,
+      "tagName": "trouble guy",
+      "type": "T"
+    },
+    {
+      "tagId": 41004125,
+      "tagName": "TRUESTORY",
+      "type": "T"
+    },
+    {
+      "tagId": 51004547,
+      "tagName": "TrueToLife",
+      "type": "T"
+    },
+    {
+      "tagId": 51007112,
+      "tagName": "Tsurugi Kyousuke",
+      "type": "T"
+    },
+    {
+      "tagId": 51007112,
+      "tagName": "Tsurugi Kyousuke",
+      "type": "T"
+    },
+    {
+      "tagId": 41002231,
+      "tagName": "Twins",
+      "type": "T"
+    },
+    {
+      "tagId": 51016525,
+      "tagName": "typicallycoldmc",
+      "type": "T"
+    },
+    {
+      "tagId": 51000386,
+      "tagName": "UK",
+      "type": "U"
+    },
+    {
+      "tagId": 51012156,
+      "tagName": "Ultraman",
+      "type": "U"
+    },
+    {
+      "tagId": 51004484,
+      "tagName": "um pouco de romance",
+      "type": "U"
+    },
+    {
+      "tagId": 51008918,
+      "tagName": "Umineko",
+      "type": "U"
+    },
+    {
+      "tagId": 51009733,
+      "tagName": "unborn child",
+      "type": "U"
+    },
+    {
+      "tagId": 51009948,
+      "tagName": "Unbothered",
+      "type": "U"
+    },
+    {
+      "tagId": 51013108,
+      "tagName": "Unclean",
+      "type": "U"
+    },
+    {
+      "tagId": 41002681,
+      "tagName": "UnconditionalLove",
+      "type": "U"
+    },
+    {
+      "tagId": 41001071,
+      "tagName": "undead",
+      "type": "U"
+    },
+    {
+      "tagId": 41005047,
+      "tagName": "Undercover",
+      "type": "U"
+    },
+    {
+      "tagId": 41000895,
+      "tagName": "underestimated protagonist",
+      "type": "U"
+    },
+    {
+      "tagId": 41002471,
+      "tagName": "UnderestimatedMC",
+      "type": "U"
+    },
+    {
+      "tagId": 51017057,
+      "tagName": "Underwater beauty",
+      "type": "U"
+    },
+    {
+      "tagId": 51018098,
+      "tagName": "underwater kingdom",
+      "type": "U"
+    },
+    {
+      "tagId": 51000802,
+      "tagName": "unexpected love",
+      "type": "U"
+    },
+    {
+      "tagId": 51012896,
+      "tagName": "Unfeeling",
+      "type": "U"
+    },
+    {
+      "tagId": 51015420,
+      "tagName": "Unforgettable",
+      "type": "U"
+    },
+    {
+      "tagId": 51017094,
+      "tagName": "Unicorns",
+      "type": "U"
+    },
+    {
+      "tagId": 51010590,
+      "tagName": "Unik",
+      "type": "U"
+    },
+    {
+      "tagId": 41005931,
+      "tagName": "unique bloodline",
+      "type": "U"
+    },
+    {
+      "tagId": 51020361,
+      "tagName": "Unique-Abilities",
+      "type": "U"
+    },
+    {
+      "tagId": 51020772,
+      "tagName": "Unique-Ability",
+      "type": "U"
+    },
+    {
+      "tagId": 41000859,
+      "tagName": "Universe",
+      "type": "U"
+    },
+    {
+      "tagId": 51000616,
+      "tagName": "Universe Creation",
+      "type": "U"
+    },
+    {
+      "tagId": 41006406,
+      "tagName": "UniverseBuilding",
+      "type": "U"
+    },
+    {
+      "tagId": 41000994,
+      "tagName": "University life",
+      "type": "U"
+    },
+    {
+      "tagId": 51012743,
+      "tagName": "unknown magic",
+      "type": "U"
+    },
+    {
+      "tagId": 51002775,
+      "tagName": "Unknown Past",
+      "type": "U"
+    },
+    {
+      "tagId": 51018078,
+      "tagName": "Unknown world",
+      "type": "U"
+    },
+    {
+      "tagId": 41006078,
+      "tagName": "Unlimited",
+      "type": "U"
+    },
+    {
+      "tagId": 51003811,
+      "tagName": "unlucky protagonist",
+      "type": "U"
+    },
+    {
+      "tagId": 51012091,
+      "tagName": "UnMasked",
+      "type": "U"
+    },
+    {
+      "tagId": 51005482,
+      "tagName": "unsaidthoughts",
+      "type": "U"
+    },
+    {
+      "tagId": 51007503,
+      "tagName": "UnstableMentalHealth",
+      "type": "U"
+    },
+    {
+      "tagId": 51007347,
+      "tagName": "Unstoppable MC",
+      "type": "U"
+    },
+    {
+      "tagId": 51018061,
+      "tagName": "Unwilling Prisoner",
+      "type": "U"
+    },
+    {
+      "tagId": 51008657,
+      "tagName": "urban romance",
+      "type": "U"
+    },
+    {
+      "tagId": 51011099,
+      "tagName": "us",
+      "type": "U"
+    },
+    {
+      "tagId": 41000935,
+      "tagName": "Utopian",
+      "type": "U"
+    },
+    {
+      "tagId": 51012089,
+      "tagName": "Uzumaki",
+      "type": "U"
+    },
+    {
+      "tagId": 51005655,
+      "tagName": "Vale",
+      "type": "V"
+    },
+    {
+      "tagId": 51005656,
+      "tagName": "Valir",
+      "type": "V"
+    },
+    {
+      "tagId": 51012931,
+      "tagName": "vampiehunter",
+      "type": "V"
+    },
+    {
+      "tagId": 51020471,
+      "tagName": "vampire arcadia lucas",
+      "type": "V"
+    },
+    {
+      "tagId": 41006715,
+      "tagName": "varsity",
+      "type": "V"
+    },
+    {
+      "tagId": 51016664,
+      "tagName": "vaugan vazquez",
+      "type": "V"
+    },
+    {
+      "tagId": 41006092,
+      "tagName": "Vegetables",
+      "type": "V"
+    },
+    {
+      "tagId": 41002466,
+      "tagName": "vengeance",
+      "type": "V"
+    },
+    {
+      "tagId": 41005579,
+      "tagName": "Vengenge",
+      "type": "V"
+    },
+    {
+      "tagId": 41006945,
+      "tagName": "vfanfic",
+      "type": "V"
+    },
+    {
+      "tagId": 51000188,
+      "tagName": "vhcr",
+      "type": "V"
+    },
+    {
+      "tagId": 51006931,
+      "tagName": "VICENTE",
+      "type": "V"
+    },
+    {
+      "tagId": 41001054,
+      "tagName": "victim",
+      "type": "V"
+    },
+    {
+      "tagId": 51007499,
+      "tagName": "vida diaria",
+      "type": "V"
+    },
+    {
+      "tagId": 41002115,
+      "tagName": "Video",
+      "type": "V"
+    },
+    {
+      "tagId": 41001230,
+      "tagName": "Video games",
+      "type": "V"
+    },
+    {
+      "tagId": 41002056,
+      "tagName": "videogame",
+      "type": "V"
+    },
+    {
+      "tagId": 51006652,
+      "tagName": "vigilante deku",
+      "type": "V"
+    },
+    {
+      "tagId": 51003266,
+      "tagName": "Viking Prince",
+      "type": "V"
+    },
+    {
+      "tagId": 41001222,
+      "tagName": "villain lead",
+      "type": "V"
+    },
+    {
+      "tagId": 51014701,
+      "tagName": "Villain to hero",
+      "type": "V"
+    },
+    {
+      "tagId": 51009905,
+      "tagName": "VillainBakugou",
+      "type": "V"
+    },
+    {
+      "tagId": 51014863,
+      "tagName": "villaindeku",
+      "type": "V"
+    },
+    {
+      "tagId": 51009116,
+      "tagName": "Villainess noble girls royalty",
+      "type": "V"
+    },
+    {
+      "tagId": 51007629,
+      "tagName": "Villainesses",
+      "type": "V"
+    },
+    {
+      "tagId": 51005415,
+      "tagName": "VillainProtagonist",
+      "type": "V"
+    },
+    {
+      "tagId": 51016084,
+      "tagName": "villian mc",
+      "type": "V"
+    },
+    {
+      "tagId": 51013625,
+      "tagName": "Violence and Mature stuff",
+      "type": "V"
+    },
+    {
+      "tagId": 41002870,
+      "tagName": "virgin",
+      "type": "V"
+    },
+    {
+      "tagId": 41002030,
+      "tagName": "virtual reality",
+      "type": "V"
+    },
+    {
+      "tagId": 41001067,
+      "tagName": "Virtual Reality",
+      "type": "V"
+    },
+    {
+      "tagId": 51020459,
+      "tagName": "Virtudazo",
+      "type": "V"
+    },
+    {
+      "tagId": 51006592,
+      "tagName": "Vision",
+      "type": "V"
+    },
+    {
+      "tagId": 51009652,
+      "tagName": "vitamale di bekasi",
+      "type": "V"
+    },
+    {
+      "tagId": 41005766,
+      "tagName": "volleyball",
+      "type": "V"
+    },
+    {
+      "tagId": 51001542,
+      "tagName": "vow",
+      "type": "V"
+    },
+    {
+      "tagId": 51016113,
+      "tagName": "Vows",
+      "type": "V"
+    },
+    {
+      "tagId": 51013573,
+      "tagName": "Voyeur",
+      "type": "V"
+    },
+    {
+      "tagId": 41004342,
+      "tagName": "vr",
+      "type": "V"
+    },
+    {
+      "tagId": 51020924,
+      "tagName": "VrGame",
+      "type": "V"
+    },
+    {
+      "tagId": 51018375,
+      "tagName": "Walkout",
+      "type": "W"
+    },
+    {
+      "tagId": 41002343,
+      "tagName": "WAR",
+      "type": "W"
+    },
+    {
+      "tagId": 41004990,
+      "tagName": "War and Politics",
+      "type": "W"
+    },
+    {
+      "tagId": 51013670,
+      "tagName": "Warm loveable mc",
+      "type": "W"
+    },
+    {
+      "tagId": 41002171,
+      "tagName": "wasteOfTime",
+      "type": "W"
+    },
+    {
+      "tagId": 51012333,
+      "tagName": "Watcher",
+      "type": "W"
+    },
+    {
+      "tagId": 51017301,
+      "tagName": "Way",
+      "type": "W"
+    },
+    {
+      "tagId": 41003712,
+      "tagName": "weak looking Mc",
+      "type": "W"
+    },
+    {
+      "tagId": 41006886,
+      "tagName": "weakMC",
+      "type": "W"
+    },
+    {
+      "tagId": 41001161,
+      "tagName": "weaktostrong",
+      "type": "W"
+    },
+    {
+      "tagId": 41006203,
+      "tagName": "WealthyCharacters",
+      "type": "W"
+    },
+    {
+      "tagId": 41000877,
+      "tagName": "webnovel1",
+      "type": "W"
+    },
+    {
+      "tagId": 51013267,
+      "tagName": "werefox",
+      "type": "W"
+    },
+    {
+      "tagId": 51013317,
+      "tagName": "What The Meaning Of Love",
+      "type": "W"
+    },
+    {
+      "tagId": 51018785,
+      "tagName": "White and black",
+      "type": "W"
+    },
+    {
+      "tagId": 41002720,
+      "tagName": "Wife",
+      "type": "W"
+    },
+    {
+      "tagId": 41004508,
+      "tagName": "Wife",
+      "type": "W"
+    },
+    {
+      "tagId": 51005594,
+      "tagName": "wight",
+      "type": "W"
+    },
+    {
+      "tagId": 51005884,
+      "tagName": "wild mc",
+      "type": "W"
+    },
+    {
+      "tagId": 51010338,
+      "tagName": "witcher",
+      "type": "W"
+    },
+    {
+      "tagId": 41003723,
+      "tagName": "Witty Comebacks",
+      "type": "W"
+    },
+    {
+      "tagId": 51007380,
+      "tagName": "wizeds",
+      "type": "W"
+    },
+    {
+      "tagId": 51014348,
+      "tagName": "Wizengamot",
+      "type": "W"
+    },
+    {
+      "tagId": 51018080,
+      "tagName": "Wolf Fantacy Fiction legends",
+      "type": "W"
+    },
+    {
+      "tagId": 41002866,
+      "tagName": "Wolves",
+      "type": "W"
+    },
+    {
+      "tagId": 51007461,
+      "tagName": "womenofcolour",
+      "type": "W"
+    },
+    {
+      "tagId": 51000558,
+      "tagName": "wonwoo",
+      "type": "W"
+    },
+    {
+      "tagId": 51002866,
+      "tagName": "work again",
+      "type": "W"
+    },
+    {
+      "tagId": 41001852,
+      "tagName": "workplace",
+      "type": "W"
+    },
+    {
+      "tagId": 51008361,
+      "tagName": "world management",
+      "type": "W"
+    },
+    {
+      "tagId": 51007326,
+      "tagName": "World of Warcraft",
+      "type": "W"
+    },
+    {
+      "tagId": 51013354,
+      "tagName": "world star",
+      "type": "W"
+    },
+    {
+      "tagId": 51002192,
+      "tagName": "World Transformed",
+      "type": "W"
+    },
+    {
+      "tagId": 41002527,
+      "tagName": "WORLD TRAVEL",
+      "type": "W"
+    },
+    {
+      "tagId": 41006378,
+      "tagName": "world-maker",
+      "type": "W"
+    },
+    {
+      "tagId": 41006261,
+      "tagName": "WorldBuilding",
+      "type": "W"
+    },
+    {
+      "tagId": 51001668,
+      "tagName": "worth your time",
+      "type": "W"
+    },
+    {
+      "tagId": 41003510,
+      "tagName": "writingcontest",
+      "type": "W"
+    },
+    {
+      "tagId": 41002641,
+      "tagName": "WTF",
+      "type": "W"
+    },
+    {
+      "tagId": 41001138,
+      "tagName": "Wuxia",
+      "type": "W"
+    },
+    {
+      "tagId": 51000597,
+      "tagName": "x",
+      "type": "X"
+    },
+    {
+      "tagId": 51004337,
+      "tagName": "x reader",
+      "type": "X"
+    },
+    {
+      "tagId": 51016282,
+      "tagName": "x-man",
+      "type": "X"
+    },
+    {
+      "tagId": 51016282,
+      "tagName": "x-man",
+      "type": "X"
+    },
+    {
+      "tagId": 41004674,
+      "tagName": "X-Over",
+      "type": "X"
+    },
+    {
+      "tagId": 41001601,
+      "tagName": "xanxia",
+      "type": "X"
+    },
+    {
+      "tagId": 41007031,
+      "tagName": "Xanxia",
+      "type": "X"
+    },
+    {
+      "tagId": 41001601,
+      "tagName": "xanxia",
+      "type": "X"
+    },
+    {
+      "tagId": 51001778,
+      "tagName": "Xcom",
+      "type": "X"
+    },
+    {
+      "tagId": 51013249,
+      "tagName": "xda",
+      "type": "X"
+    },
+    {
+      "tagId": 51013249,
+      "tagName": "xda",
+      "type": "X"
+    },
+    {
+      "tagId": 51013322,
+      "tagName": "Xenoverse",
+      "type": "X"
+    },
+    {
+      "tagId": 51005327,
+      "tagName": "XianHua Element",
+      "type": "X"
+    },
+    {
+      "tagId": 51002440,
+      "tagName": "xianxai",
+      "type": "X"
+    },
+    {
+      "tagId": 51002440,
+      "tagName": "xianxai",
+      "type": "X"
+    },
+    {
+      "tagId": 51019897,
+      "tagName": "xianxai emotional",
+      "type": "X"
+    },
+    {
+      "tagId": 41000334,
+      "tagName": "xianxia",
+      "type": "X"
+    },
+    {
+      "tagId": 41000298,
+      "tagName": "Xianxia",
+      "type": "X"
+    },
+    {
+      "tagId": 41001284,
+      "tagName": "Xianxia",
+      "type": "X"
+    },
+    {
+      "tagId": 51010378,
+      "tagName": "Xiao Chen",
+      "type": "X"
+    },
+    {
+      "tagId": 51010378,
+      "tagName": "Xiao Chen",
+      "type": "X"
+    },
+    {
+      "tagId": 51020703,
+      "tagName": "XIAO DEJUN",
+      "type": "X"
+    },
+    {
+      "tagId": 51020703,
+      "tagName": "XIAO DEJUN",
+      "type": "X"
+    },
+    {
+      "tagId": 51002891,
+      "tagName": "xiao zhan",
+      "type": "X"
+    },
+    {
+      "tagId": 41006135,
+      "tagName": "xiaxia",
+      "type": "X"
+    },
+    {
+      "tagId": 51015520,
+      "tagName": "XiCheng",
+      "type": "X"
+    },
+    {
+      "tagId": 51003183,
+      "tagName": "xin",
+      "type": "X"
+    },
+    {
+      "tagId": 51003184,
+      "tagName": "xin x ten",
+      "type": "X"
+    },
+    {
+      "tagId": 41001470,
+      "tagName": "XIUMIN",
+      "type": "X"
+    },
+    {
+      "tagId": 51018888,
+      "tagName": "xOC",
+      "type": "X"
+    },
+    {
+      "tagId": 51018888,
+      "tagName": "xOC",
+      "type": "X"
+    },
+    {
+      "tagId": 41006116,
+      "tagName": "xover",
+      "type": "X"
+    },
+    {
+      "tagId": 41003374,
+      "tagName": "Xover",
+      "type": "X"
+    },
+    {
+      "tagId": 41004306,
+      "tagName": "XuanHuan",
+      "type": "X"
+    },
+    {
+      "tagId": 41004306,
+      "tagName": "XuanHuan",
+      "type": "X"
+    },
+    {
+      "tagId": 41001139,
+      "tagName": "Xuanhuan",
+      "type": "X"
+    },
+    {
+      "tagId": 41002602,
+      "tagName": "xuanhuan",
+      "type": "X"
+    },
+    {
+      "tagId": 51015290,
+      "tagName": "Xuyên không",
+      "type": "X"
+    },
+    {
+      "tagId": 51018910,
+      "tagName": "Xuyên thư",
+      "type": "X"
+    },
+    {
+      "tagId": 51004947,
+      "tagName": "xxxHolic",
+      "type": "X"
+    },
+    {
+      "tagId": 51000867,
+      "tagName": "Y8 Games",
+      "type": "Y"
+    },
+    {
+      "tagId": 41005898,
+      "tagName": "YAFantasy",
+      "type": "Y"
+    },
+    {
+      "tagId": 41003085,
+      "tagName": "YAfiction",
+      "type": "Y"
+    },
+    {
+      "tagId": 51000512,
+      "tagName": "yamada hizashi",
+      "type": "Y"
+    },
+    {
+      "tagId": 51016490,
+      "tagName": "Yamoshi",
+      "type": "Y"
+    },
+    {
+      "tagId": 51013061,
+      "tagName": "yandere tendencies",
+      "type": "Y"
+    },
+    {
+      "tagId": 51007938,
+      "tagName": "Yanuaritrit",
+      "type": "Y"
+    },
+    {
+      "tagId": 51014329,
+      "tagName": "yaoi homo gay boyslove lgbt",
+      "type": "Y"
+    },
+    {
+      "tagId": 51016697,
+      "tagName": "Yaoi warning no homophobics",
+      "type": "Y"
+    },
+    {
+      "tagId": 51017436,
+      "tagName": "Yellow",
+      "type": "Y"
+    },
+    {
+      "tagId": 51004063,
+      "tagName": "YeXiu",
+      "type": "Y"
+    },
+    {
+      "tagId": 51001781,
+      "tagName": "Yg trainee",
+      "type": "Y"
+    },
+    {
+      "tagId": 51010002,
+      "tagName": "YGO",
+      "type": "Y"
+    },
+    {
+      "tagId": 51021623,
+      "tagName": "yin awong",
+      "type": "Y"
+    },
+    {
+      "tagId": 51016469,
+      "tagName": "YiSun",
+      "type": "Y"
+    },
+    {
+      "tagId": 41001476,
+      "tagName": "Yoongi",
+      "type": "Y"
+    },
+    {
+      "tagId": 51000896,
+      "tagName": "Yoonmin",
+      "type": "Y"
+    },
+    {
+      "tagId": 51011116,
+      "tagName": "Youkais",
+      "type": "Y"
+    },
+    {
+      "tagId": 51018887,
+      "tagName": "Youknowicantrickyou",
+      "type": "Y"
+    },
+    {
+      "tagId": 41005135,
+      "tagName": "Young Adult",
+      "type": "Y"
+    },
+    {
+      "tagId": 51017933,
+      "tagName": "Young Dinosaur",
+      "type": "Y"
+    },
+    {
+      "tagId": 51014448,
+      "tagName": "youngadult smut agegap",
+      "type": "Y"
+    },
+    {
+      "tagId": 51012581,
+      "tagName": "Younger Male Lead",
+      "type": "Y"
+    },
+    {
+      "tagId": 51020218,
+      "tagName": "youngkore",
+      "type": "Y"
+    },
+    {
+      "tagId": 41006290,
+      "tagName": "younglove",
+      "type": "Y"
+    },
+    {
+      "tagId": 51006347,
+      "tagName": "Younglover",
+      "type": "Y"
+    },
+    {
+      "tagId": 51020789,
+      "tagName": "Youngwoman",
+      "type": "Y"
+    },
+    {
+      "tagId": 51020789,
+      "tagName": "Youngwoman",
+      "type": "Y"
+    },
+    {
+      "tagId": 51005265,
+      "tagName": "yourgalaxy",
+      "type": "Y"
+    },
+    {
+      "tagId": 51014801,
+      "tagName": "Youth School",
+      "type": "Y"
+    },
+    {
+      "tagId": 51007057,
+      "tagName": "youtuber",
+      "type": "Y"
+    },
+    {
+      "tagId": 41005068,
+      "tagName": "yowai",
+      "type": "Y"
+    },
+    {
+      "tagId": 51010007,
+      "tagName": "Yugi Muto",
+      "type": "Y"
+    },
+    {
+      "tagId": 51010007,
+      "tagName": "Yugi Muto",
+      "type": "Y"
+    },
+    {
+      "tagId": 41001823,
+      "tagName": "Yugioh",
+      "type": "Y"
+    },
+    {
+      "tagId": 51008594,
+      "tagName": "Yulie Shiori",
+      "type": "Y"
+    },
+    {
+      "tagId": 51000281,
+      "tagName": "yum",
+      "type": "Y"
+    },
+    {
+      "tagId": 41004881,
+      "tagName": "yuri",
+      "type": "Y"
+    },
+    {
+      "tagId": 51020162,
+      "tagName": "Yuwin",
+      "type": "Y"
+    },
+    {
+      "tagId": 51020162,
+      "tagName": "Yuwin",
+      "type": "Y"
+    },
+    {
+      "tagId": 51010887,
+      "tagName": "Z-Fighters",
+      "type": "Z"
+    },
+    {
+      "tagId": 51010516,
+      "tagName": "Zacarias Smith",
+      "type": "Z"
+    },
+    {
+      "tagId": 51017970,
+      "tagName": "zada",
+      "type": "Z"
+    },
+    {
+      "tagId": 51014633,
+      "tagName": "Zampakto",
+      "type": "Z"
+    },
+    {
+      "tagId": 51009824,
+      "tagName": "Zelretch",
+      "type": "Z"
+    },
+    {
+      "tagId": 51009824,
+      "tagName": "Zelretch",
+      "type": "Z"
+    },
+    {
+      "tagId": 51020394,
+      "tagName": "Zenith Tempest",
+      "type": "Z"
+    },
+    {
+      "tagId": 41001950,
+      "tagName": "Zerg",
+      "type": "Z"
+    },
+    {
+      "tagId": 51016837,
+      "tagName": "Zero Kiryu",
+      "type": "Z"
+    },
+    {
+      "tagId": 51001600,
+      "tagName": "zero naming sense author",
+      "type": "Z"
+    },
+    {
+      "tagId": 41001104,
+      "tagName": "Zero to Hero",
+      "type": "Z"
+    },
+    {
+      "tagId": 41004770,
+      "tagName": "Zero to Hero",
+      "type": "Z"
+    },
+    {
+      "tagId": 41006916,
+      "tagName": "ZeroToHero",
+      "type": "Z"
+    },
+    {
+      "tagId": 41004013,
+      "tagName": "Zhao Yunlan",
+      "type": "Z"
+    },
+    {
+      "tagId": 41004144,
+      "tagName": "Zilong x Freya Fan Fiction",
+      "type": "Z"
+    },
+    {
+      "tagId": 51017969,
+      "tagName": "zilya",
+      "type": "Z"
+    },
+    {
+      "tagId": 51008658,
+      "tagName": "zionisisrael Indonesia relawa",
+      "type": "Z"
+    },
+    {
+      "tagId": 51014838,
+      "tagName": "ZLcouple",
+      "type": "Z"
+    },
+    {
+      "tagId": 41000691,
+      "tagName": "zmsd",
+      "type": "Z"
+    },
+    {
+      "tagId": 51015595,
+      "tagName": "zodiac sign",
+      "type": "Z"
+    },
+    {
+      "tagId": 51018526,
+      "tagName": "zodiacs",
+      "type": "Z"
+    },
+    {
+      "tagId": 51018526,
+      "tagName": "zodiacs",
+      "type": "Z"
+    },
+    {
+      "tagId": 51015783,
+      "tagName": "Zodiacs Celestial Magic Power",
+      "type": "Z"
+    },
+    {
+      "tagId": 51010725,
+      "tagName": "zombi",
+      "type": "Z"
+    },
+    {
+      "tagId": 51009046,
+      "tagName": "Zombie @Reincarnation",
+      "type": "Z"
+    },
+    {
+      "tagId": 51020828,
+      "tagName": "zombie outbreak",
+      "type": "Z"
+    },
+    {
+      "tagId": 51020828,
+      "tagName": "zombie outbreak",
+      "type": "Z"
+    },
+    {
+      "tagId": 51020773,
+      "tagName": "Zombie-Apocalypse",
+      "type": "Z"
+    },
+    {
+      "tagId": 51015562,
+      "tagName": "zombie-ish",
+      "type": "Z"
+    },
+    {
+      "tagId": 51015562,
+      "tagName": "zombie-ish",
+      "type": "Z"
+    },
+    {
+      "tagId": 51005448,
+      "tagName": "ZombieApocalypse",
+      "type": "Z"
+    },
+    {
+      "tagId": 51008133,
+      "tagName": "zombielove",
+      "type": "Z"
+    },
+    {
+      "tagId": 41002977,
+      "tagName": "ZombieOverLord",
+      "type": "Z"
+    },
+    {
+      "tagId": 41003002,
+      "tagName": "ZOMBIES",
+      "type": "Z"
+    },
+    {
+      "tagId": 41002179,
+      "tagName": "zombies",
+      "type": "Z"
+    },
+    {
+      "tagId": 41003002,
+      "tagName": "ZOMBIES",
+      "type": "Z"
+    },
+    {
+      "tagId": 51019027,
+      "tagName": "zombis",
+      "type": "Z"
+    },
+    {
+      "tagId": 51007822,
+      "tagName": "Zoro",
+      "type": "Z"
+    },
+    {
+      "tagId": 51013190,
+      "tagName": "ZoSan",
+      "type": "Z"
+    },
+    {
+      "tagId": 41005167,
+      "tagName": "zty",
+      "type": "Z"
+    },
+    {
+      "tagId": 51020714,
+      "tagName": "الجزائر",
+      "type": "0"
+    },
+    {
+      "tagId": 51015050,
+      "tagName": "现代言情",
+      "type": "0"
+    },
+    {
+      "tagId": 41005366,
+      "tagName": "穿越",
+      "type": "0"
+    },
+    {
+      "tagId": 51008047,
+      "tagName": "시흥오피",
+      "type": "0"
+    },
+    {
+      "tagId": 51008078,
+      "tagName": "울산오피",
+      "type": "0"
+    }
+  ]
+}
