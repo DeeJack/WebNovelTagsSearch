@@ -66,7 +66,6 @@ ul.autocomplete_selected li {
 
 .card {
   display: inline-block;
-  max-width: 40%;
   margin: 0 10px 10px 0;    
   border-radius: 10px;
 }
@@ -106,15 +105,6 @@ a > .card p {
 
 .badge-light {
   border: 1px solid black;
-}
-
-#sort {
-  float: right;    
-  max-width: 20%;
-}
-
-.row {
-  display: block;
 }
 
 .keyword_container div {

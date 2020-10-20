@@ -5,87 +5,108 @@
     <%- include('./partials/head'); %>
 </head>
 
-<body class="container">
+<body>
 
     <% /* %> <header>
         <%- include('../partials/header'); %>
     </header> <% */ %>
 
-    <main>
+    <div class="container-fluid">
         <div class="row">
-            <div class="col-sm-8">
+            <div class="col">
                 <div class="jumbotron">
                     <h1>Web novel advanced filter</h1>
                     <p>Advanced filter for web novels!</p>
                 </div>
             </div>
+        </div>
 
-            <div class="col-sm-8">
-                <div class="keyword_container">
-                    <div>
-                        <label for="keyword">Keyword: </label>
-                        <input type="text" name="keyword" id="keyword" placeholder="Keyword">
-                    </div>
-                    <div>
-                        <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="chkTitle">
-                            <label class="custom-control-label" for="chkTitle">Title</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="chkAuthor">
-                            <label class="custom-control-label" for="chkAuthor">Author</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="chkDescription">
-                            <label class="custom-control-label" for="chkDescription">Description</label>
-                          </div>
-                          <div class="custom-control custom-checkbox">
-                            <input type="checkbox" class="custom-control-input" id="chkTag">
-                            <label class="custom-control-label" for="chkTag">Tag</label>
-                          </div>
-                          <div class="custom-control custom-switch">
-                            <input type="checkbox" class="custom-control-input" id="swcKeywordAnd">
-                            <label class="custom-control-label" for="swcKeywordAnd">And</label>
-                          </div>
-                    </div>
+        <div class="row mb-4">
+            <div class="col-md-auto">
+                <label for="keyword">Keyword: </label>
+                <input type="text" name="keyword" id="keyword" placeholder="Keyword">
+            </div>
+            <div class="col-md-auto">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="chkTitle">
+                    <label class="custom-control-label" for="chkTitle">Title</label>
                 </div>
-                <br>
-                <div class="autocomplete-container">
-                    <label>Category: </label>
-                    <div class="autocomplete">
-                        <input type="text" id="category" placeholder="Main category">
-                    </div>
+            </div>
+            <div class="col-md-auto">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="chkAuthor">
+                    <label class="custom-control-label" for="chkAuthor">Author</label>
                 </div>
-                <div class="autocomplete-container" style="float: right">
-                    <label>Tags: </label>
-                    <div class="autocomplete">
-                        <input type="text" id="tag" placeholder="Tag">
-                    </div>
+            </div>
+            <div class="col-md-auto">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="chkDescription">
+                    <label class="custom-control-label" for="chkDescription">Description</label>
                 </div>
-                <div class="buttons-container">
-                    <button id="search">Search</button>
-                    <button id="reset" type="reset">Reset</button>
+            </div>
+            <div class="col-md-auto">
+                <div class="custom-control custom-checkbox custom-control-inline">
+                    <input type="checkbox" class="custom-control-input" id="chkTag">
+                    <label class="custom-control-label" for="chkTag">Tag</label>
                 </div>
+            </div>
+            <div class="col-md-auto">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="swcKeywordAnd">
+                    <label class="custom-control-label" for="swcKeywordAnd">And</label>
+                </div>
+            </div>
+        </div>
+        <div class="row mb-4">
+            <div class="col-sm-4 my-auto">
+                <label>Category: </label>
+                <div class="autocomplete">
+                    <input type="text" id="category" placeholder="Main category">
+                </div>
+            </div>
+            <div class="col-sm-4 my-auto">
+                <label>Tags: </label>
+                <div class="autocomplete">
+                    <input type="text" id="tag" placeholder="Tag">
+                </div>
+            </div>
+            <div class="col-sm-4 my-auto">
+                <div class="custom-control custom-switch">
+                    <input type="checkbox" class="custom-control-input" id="swcTagsAnd">
+                    <label class="custom-control-label" for="swcTagsAnd">AND</label>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center mb-4">
+            <div class="col-md-auto">
+                <button class="btn btn-info" id="search">Search</button>
+                <button class="btn btn-info" id="reset" type="reset">Reset</button>
             </div>
         </div>
 
 
-        <div class="row">
-            <select id="sort" class="custom-select mr-sm-2">
-                <option value="0" selected>Rating</option>
-                <option value="1">Views</option>
-                <option value="2">Collections</option>
-                <option value="3">Total chapters</option>
-                <option value="4">Last update</option>
-                <option value="5">Random</option>
-                <option value="6">Power stones</option>
-            </select>
-            <br><br><br>
-            <div id="list">
-
+        <div class="row mb-4">
+            <div class="col align-self-start">
+            </div>
+            <div class="col align-self-center">
+            </div>
+            <div class="col-md-auto align-self-end">
+                <select id="sort" class="custom-select">
+                    <option value="0" selected>Rating</option>
+                    <option value="1">Views</option>
+                    <option value="2">Collections</option>
+                    <option value="3">Total chapters</option>
+                    <option value="4">Last update</option>
+                    <option value="5">Random</option>
+                    <option value="6">Power stones</option>
+                </select>
             </div>
         </div>
-    </main>
+
+        <div class="row" id="list">
+
+        </div>
+    </div>
 
     <% /* %> <footer>
         <%- include('../partials/footer'); %>

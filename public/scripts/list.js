@@ -2,15 +2,30 @@
  * @type {Novel[]}
  */
 let novels;
-let page = 1;
+let page = 0;
 let scrollListener;
 let sortListener;
 const ELEMENTS_FOR_PAGE = 10;
 
-let keywordSearchFilters = [(novel, keyword) => novel.name.toLowerCase().includes(keyword), 
+let keywordSearchFilters = [
+    (novel, keyword) => novel.name.toLowerCase().includes(keyword),
     (novel, keyword) => novel.description.toLowerCase().includes(keyword),
     (novel, keyword) => novel.author.toLowerCase().includes(keyword),
-    (novel, keyword) => novel.tags.some((tag => tag.name.toLowerCase().includes(keyword)))]
+    (novel, keyword) => novel.tags.some((tag => tag.name.toLowerCase().includes(keyword)))
+]
+let searchForTag = (novel, tag) => (novel.tags.some(novelTag => tag.ids.includes(novelTag.ids[0])) ||
+    novel.tags.some(novelTag => novelTag.name.toLowerCase() == tag.name.toLowerCase()))
+let tagsFilters = [
+    // Check if the category of the novel is a selected category, or in the excluded category if excluded is selected (XOR)
+    (novel, list, excluded, tagsSearchType) => list.length == 0 || (excluded != list.map(cat => cat.id).includes(novel.mainCategoryId)),
+    // Check if the novel contains a tag that is in the selected ones, or in the excluded one if excluded is selected (XOR), 
+    // It also checks if the 'AND' is selected
+    (novel, list, excluded, tagsSearchType) => list.length == 0 || (
+        (excluded != (
+            ((excluded || !tagsSearchType) && list.some(currentTag => searchForTag(novel, currentTag)) ||
+                (!excluded && tagsSearchType && list.every(currentTag => searchForTag(novel, currentTag))))))
+    )
+]
 
 document.addEventListener('DOMContentLoaded', async () => {
     let response = await fetch('/static/documents/webnovels.json')
@@ -30,28 +45,8 @@ document.addEventListener('DOMContentLoaded', async () => {
  * @param {Array} tags 
  */
 function loadList(selectedCategories, excludedCategories, selectedTags, excludedTags, tags) {
-    let keyword = document.querySelector('#keyword').value.toLowerCase()
-    let selectedKeyboardSearches = [
-        document.querySelector('#chkTitle').checked,
-        document.querySelector('#chkDescription').checked,
-        document.querySelector('#chkAuthor').checked,
-        document.querySelector('#chkTag').checked
-    ]
-    let keywordSearchType = document.querySelector('#swcKeywordAnd').checked
-
-    // fare filter.every/some anche per cats e tags
-    let found = novels
-        .filter(novel => selectedCategories.length == 0 || selectedCategories.map(cat => cat.id).includes(novel.mainCategoryId))
-        .filter(novel => excludedCategories.length == 0 || !excludedCategories.map(cat => cat.id).includes(novel.mainCategoryId))
-        .filter(novel => selectedTags.length == 0 ||
-            selectedTags.map(tag => tag.ids).some(ids => novel.tags.map(tag => tag.ids[0]).some(tagId => ids.includes(tagId))) ||
-            selectedTags.map(tag => tag.name).some(name => novel.tags.map(tag => tag.name).some(tagName => tagName.toLowerCase() == name.toLowerCase())))
-        .filter(novel => excludedTags.length == 0 ||
-            !excludedTags.map(tag => tag.ids).some(ids => novel.tags.map(tag => tag.ids[0]).some(tagId => ids.includes(tagId))) ||
-            !selectedTags.map(tag => tag.name).some(name => novel.tags.map(tag => tag.name).some(tagName => tagName.toLowerCase() == name.toLowerCase())))
-        .filter((novel) => !keyword || 
-            (keywordSearchType && keywordSearchFilters.every((filter, index) => !selectedKeyboardSearches[index] || filter(novel, keyword)) || 
-            (!keywordSearchType && keywordSearchFilters.some((filter, index) => selectedKeyboardSearches[index] && filter(novel, keyword)))))
+    let tagLists = [excludedCategories, excludedTags, selectedCategories, selectedTags]
+    let found = filterNovels(novels, tagLists)
 
     localStorage.setItem('selectedCats', JSON.stringify(selectedCategories))
     localStorage.setItem('excludedCats', JSON.stringify(excludedCategories))
@@ -60,9 +55,42 @@ function loadList(selectedCategories, excludedCategories, selectedTags, excluded
 
     console.log(localStorage)
     addListeners(found, tags)
-    
+
     page = 1
-    loadFiltered(found, tags, 1)
+    loadFiltered(found, 1)
+}
+
+/**
+ * Filters the novels based on the choices of the user
+ * @param {Novel[]} novels 
+ */
+function filterNovels(novels, tagLists) {
+    let keyword = document.querySelector('#keyword').value.trim().toLowerCase()
+    let keywordSearchType = document.querySelector('#swcKeywordAnd').checked
+    let tagsSearchType = document.querySelector('#swcTagsAnd').checked
+
+    let selectedKeyboardSearches = [
+        document.querySelector('#chkTitle').checked,
+        document.querySelector('#chkDescription').checked,
+        document.querySelector('#chkAuthor').checked,
+        document.querySelector('#chkTag').checked
+    ]
+
+    return novels
+        // Check that the novel does't contain even one of the excluded categories
+        .filter(novel => tagsFilters.every((filter, index) => filter(novel, tagLists[index], true, true)))
+        .filter(novel =>
+            // Check that if the novels contains the selectedCats AND the selectedTags
+            tagsFilters.every((filter, index) => filter(novel, tagLists[index + 2], false, tagsSearchType))
+        )
+        // If there isn't a keyword, or if none of the checkboxes are selected
+        .filter((novel) => !keyword || !selectedKeyboardSearches.some(chk => chk) ||
+            // If the search type is 'AND' and all of the filters are satisfied
+            (keywordSearchType && keywordSearchFilters.every((filter, index) => !selectedKeyboardSearches[index] || filter(novel, keyword)) ||
+                // If the search type is 'OR' and some (at least one) of the filters are satisfied
+                (!keywordSearchType && keywordSearchFilters.some((filter, index) => selectedKeyboardSearches[index] && filter(novel, keyword)))
+            )
+        )
 }
 
 function addListeners(found, tags) {
@@ -72,7 +100,7 @@ function addListeners(found, tags) {
             if (window.scrollY + window.innerHeight >= document.body.clientHeight - 20) {
                 console.log("loading")
                 page++
-                loadFiltered(found, tags, page)
+                loadFiltered(found, page)
             }
         }
         document.addEventListener('scroll', scrollListener)
@@ -83,7 +111,7 @@ function addListeners(found, tags) {
     sortListener = (event) => {
         page = 1
         document.querySelector('#list').innerHTML = ""
-        loadFiltered(sort(found, event.target.value), tags, 1)
+        loadFiltered(sort(found, event.target.value), 1)
     }
     sortSelection.addEventListener('change', sortListener)
 }
@@ -94,20 +122,21 @@ function reset() {
 }
 
 /** 
-* @param {Array} tags 
-* @param {Array} tags 
-*/
-function loadFiltered(novels, tags, count) {
+ * @param {Array} tags 
+ * @param {Array} tags 
+ */
+function loadFiltered(novels, count) {
     let div = document.querySelector('#list')
-    novels.slice(count, count + ELEMENTS_FOR_PAGE).forEach(novel => div.appendChild(createListItem(novel, tags)))
+    novels.slice(count * ELEMENTS_FOR_PAGE, count * ELEMENTS_FOR_PAGE + ELEMENTS_FOR_PAGE).forEach(novel => div.appendChild(createListItem(novel)))
 }
 
 /**
  * 
  * @param {Novel} novel 
- * @param {Array} tags 
  */
-function createListItem(novel, tags) {
+function createListItem(novel) {
+    let column = document.createElement('div')
+    column.classList.add('col-sm-4')
     let link = document.createElement('a')
     link.target = '_blank'
     link.href = `https://www.webnovel.com/book/${novel.id}`
@@ -123,13 +152,14 @@ function createListItem(novel, tags) {
 
     cardBody.appendChild(createText(novel.name, true))
 
-    novel.tags.map(tag => createTag(tag, tags, novel.name)).filter(el => el)
+    novel.tags.map(tag => createTag(tag)).filter(el => el)
         .splice(0, 5)
         .forEach(tag => cardBody.appendChild(tag))
 
     cardBody.appendChild(createText(novel.description))
     card.append(img, cardBody)
-    return link
+    column.appendChild(link)
+    return column
 }
 
 /**
@@ -150,23 +180,47 @@ function createText(text, strong = false) {
 }
 
 /** 
-* @param {Array} tags 
-*/
-function createTag(tag, fullTags, novelName) {
+ * @param {Array} tags 
+ */
+function createTag(tag) {
     let badge = document.createElement('span')
     badge.classList.add('badge', 'badge-primary')
-    // TODO: ?????????? Controllare per il nome!!
-    /*let tagsName = [...fullTags.tags.filter(currentTag => tag.ids.some(val => currentTag.ids.includes(val))
-        || currentTag.name.toLowerCase() == tag.name.toLowerCase()),
-    ...fullTags.mainCategories.filter(cat => cat.id == tag.id)]
-    if (!tagsName || tagsName.length == 0) {
-        console.error(`${tag.ids} not found!`)
-        console.error(novelName)
-        return
-    }*/
-    badge.textContent = tag.name//tagsName[0].tagName || tagsName[0].name
+    badge.textContent = tag.name
     return badge
 }
+
+/**
+ * https://stackoverflow.com/questions/1411199/what-is-a-better-way-to-sort-by-a-5-star-rating
+ * @param {Novel} novel 
+ */
+function getWeightedRating(novel) {
+    let minimumVotes = 10
+    let meanVote = 3.0
+    return (novel.score * novel.numberOfRatings + meanVote * minimumVotes) / (novel.numberOfRatings + minimumVotes)
+}
+
+let tests = [{
+        score: 3.0,
+        numberOfRatings: 20
+    }, {
+        score: 3.5,
+        numberOfRatings: 15
+    }, {
+        score: 4.3,
+        numberOfRatings: 10
+    },
+    {
+        score: 4.8,
+        numberOfRatings: 100
+    }, {
+        score: 4.9,
+        numberOfRatings: 50
+    }, {
+        score: 4.4,
+        numberOfRatings: 40
+    },
+]
+console.log(tests.map(test => getWeightedRating(test)))
 
 class Novel {
     /**
