@@ -47,6 +47,7 @@ document.addEventListener('DOMContentLoaded', async () => {
 function loadList(selectedCategories, excludedCategories, selectedTags, excludedTags, tags) {
     let tagLists = [excludedCategories, excludedTags, selectedCategories, selectedTags]
     let found = filterNovels(novels, tagLists)
+    console.log(found)
 
     localStorage.setItem('selectedCats', JSON.stringify(selectedCategories))
     localStorage.setItem('excludedCats', JSON.stringify(excludedCategories))
@@ -56,8 +57,8 @@ function loadList(selectedCategories, excludedCategories, selectedTags, excluded
     console.log(localStorage)
     addListeners(found, tags)
 
-    page = 1
-    loadFiltered(found, 1)
+    page = 0
+    loadFiltered(found, 0)
 }
 
 /**
@@ -75,6 +76,8 @@ function filterNovels(novels, tagLists) {
         document.querySelector('#chkAuthor').checked,
         document.querySelector('#chkTag').checked
     ]
+    console.log(selectedKeyboardSearches)
+    console.log(novels.map(novel => keywordSearchFilters.some((filter, index) => selectedKeyboardSearches[index] && filter(novel, keyword))).filter(asd => asd))
 
     return novels
         // Check that the novel does't contain even one of the excluded categories
@@ -83,6 +86,19 @@ function filterNovels(novels, tagLists) {
             // Check that if the novels contains the selectedCats AND the selectedTags
             tagsFilters.every((filter, index) => filter(novel, tagLists[index + 2], false, tagsSearchType))
         )
+        .map((novel) => {
+            let check = {
+                first: !keyword,
+                second: !selectedKeyboardSearches.some(chk => chk),
+                thirdOne: keywordSearchType,
+                thirdTwo: keywordSearchFilters.every((filter, index) => !selectedKeyboardSearches[index] || filter(novel, keyword)),
+                fourthOne: !keywordSearchType,
+                fourthTwo: keywordSearchFilters.some((filter, index) => selectedKeyboardSearches[index] && filter(novel, keyword))
+            }
+            if (check.fourthOne && check.fourthTwo)
+                console.log(check)
+            return novel
+        })
         // If there isn't a keyword, or if none of the checkboxes are selected
         .filter((novel) => !keyword || !selectedKeyboardSearches.some(chk => chk) ||
             // If the search type is 'AND' and all of the filters are satisfied
@@ -141,7 +157,6 @@ function createListItem(novel) {
     link.target = '_blank'
     link.href = `https://www.webnovel.com/book/${novel.id}`
     let card = document.createElement('div')
-    link.appendChild(card)
     card.classList.add('card')
     let img = document.createElement('img')
     img.classList.add('card-img-left')
@@ -150,15 +165,29 @@ function createListItem(novel) {
     let cardBody = document.createElement('div')
     cardBody.classList.add('card-body')
 
-    cardBody.appendChild(createText(novel.name, true))
+    link.appendChild(createText(novel.name, true))
+    cardBody.appendChild(link)
 
     novel.tags.map(tag => createTag(tag)).filter(el => el)
-        .splice(0, 5)
+        .slice(0, 5)
         .forEach(tag => cardBody.appendChild(tag))
+
+    if (novel.tags.length > 5) {
+        let hiddenDiv = document.createElement('div')
+
+        novel.tags.map(tag => createTag(tag)).filter(el => el)
+            .slice(5)
+            .forEach(tag => hiddenDiv.appendChild(tag))
+        let toggleTags = document.createElement('a')
+        toggleTags.textContent = 'Toggle all'
+        collapsable(hiddenDiv, toggleTags)
+        cardBody.appendChild(hiddenDiv)
+        cardBody.appendChild(toggleTags)
+    }
 
     cardBody.appendChild(createText(novel.description))
     card.append(img, cardBody)
-    column.appendChild(link)
+    column.appendChild(card)
     return column
 }
 
@@ -166,14 +195,19 @@ function createListItem(novel) {
  * @param {Novel} novel 
  */
 function createText(text, strong = false) {
-    let textToShow = text
     let cardText = document.createElement('p')
     cardText.classList.add('card-text')
-    if (text.length > 100) {
-        textToShow = text.substring(0, 100) + '....'
+    let textLengthWidth = (window.innerWidth / 10)
+    if (textLengthWidth > 130)
+        textLengthWidth -= 90
+    console.log(text.length > textLengthWidth)
+    if (text.length > textLengthWidth) {
+        let toggleBtn = document.createElement('a')
+        collapseText(text, textLengthWidth, cardText, toggleBtn)
+        cardText.appendChild(toggleBtn)
+    } else {
+        cardText.textContent = text
     }
-    cardText.textContent = textToShow
-    cardText.title = text
     if (strong)
         cardText.style.fontWeight = 'bold'
     return cardText

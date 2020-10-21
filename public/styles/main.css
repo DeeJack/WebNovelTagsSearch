@@ -71,13 +71,12 @@ ul.autocomplete_selected li {
 }
 
 .card-img-left {
-  display: inline-block;
+  display: inline;
+  float: left;
+  margin: 10px;
 }
 
 .card-body {
-  display: inline-block;
-  vertical-align: top;
-  max-width: 65%;
 }
 
 a > .card p {
