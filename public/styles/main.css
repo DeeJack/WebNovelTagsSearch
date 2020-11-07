@@ -113,3 +113,7 @@ a > .card p {
 .keyword_container .custom-checkbox {
   margin-right: 15px;
 }
+
+p {
+  margin: 0;
+}

@@ -28,6 +28,10 @@ let tagsFilters = [
 ]
 
 document.addEventListener('DOMContentLoaded', async () => {
+    let sortSelection = document.querySelector('#sort')
+    sortSelection.selectedIndex = 0
+    sortSelection.disabled = true
+
     let response = await fetch('/static/documents/webnovels.json')
     if (response.status !== 200) {
         console.error('Response: ' + response.status)
@@ -54,8 +58,8 @@ function loadList(selectedCategories, excludedCategories, selectedTags, excluded
     localStorage.setItem('selectedTags', JSON.stringify(selectedTags))
     localStorage.setItem('excludedTags', JSON.stringify(excludedTags))
 
-    console.log(localStorage)
-    addListeners(found, tags)
+    
+    addListeners(found)
 
     page = 0
     loadFiltered(found, 0)
@@ -66,6 +70,7 @@ function loadList(selectedCategories, excludedCategories, selectedTags, excluded
  * @param {Novel[]} novels 
  */
 function filterNovels(novels, tagLists) {
+    console.log(novels.length)
     let keyword = document.querySelector('#keyword').value.trim().toLowerCase()
     let keywordSearchType = document.querySelector('#swcKeywordAnd').checked
     let tagsSearchType = document.querySelector('#swcTagsAnd').checked
@@ -86,19 +91,6 @@ function filterNovels(novels, tagLists) {
             // Check that if the novels contains the selectedCats AND the selectedTags
             tagsFilters.every((filter, index) => filter(novel, tagLists[index + 2], false, tagsSearchType))
         )
-        .map((novel) => {
-            let check = {
-                first: !keyword,
-                second: !selectedKeyboardSearches.some(chk => chk),
-                thirdOne: keywordSearchType,
-                thirdTwo: keywordSearchFilters.every((filter, index) => !selectedKeyboardSearches[index] || filter(novel, keyword)),
-                fourthOne: !keywordSearchType,
-                fourthTwo: keywordSearchFilters.some((filter, index) => selectedKeyboardSearches[index] && filter(novel, keyword))
-            }
-            if (check.fourthOne && check.fourthTwo)
-                console.log(check)
-            return novel
-        })
         // If there isn't a keyword, or if none of the checkboxes are selected
         .filter((novel) => !keyword || !selectedKeyboardSearches.some(chk => chk) ||
             // If the search type is 'AND' and all of the filters are satisfied
@@ -109,7 +101,7 @@ function filterNovels(novels, tagLists) {
         )
 }
 
-function addListeners(found, tags) {
+function addListeners(found) {
     document.removeEventListener('scroll', scrollListener)
     if (found.length > ELEMENTS_FOR_PAGE) {
         scrollListener = () => {
@@ -123,6 +115,8 @@ function addListeners(found, tags) {
     }
 
     let sortSelection = document.querySelector('#sort')
+    sortSelection.selectedIndex = 0
+    sortSelection.disabled = false
     sortSelection.removeEventListener('change', sortSelection)
     sortListener = (event) => {
         page = 1
@@ -184,8 +178,11 @@ function createListItem(novel) {
         cardBody.appendChild(hiddenDiv)
         cardBody.appendChild(toggleTags)
     }
+    if (novel.details) {
+        cardBody.appendChild(createDetails(novel))
+    }
 
-    cardBody.appendChild(createText(novel.description))
+    cardBody.appendChild(createText(`Description: ${novel.description}`))
     card.append(img, cardBody)
     column.appendChild(card)
     return column
@@ -194,67 +191,14 @@ function createListItem(novel) {
 /**
  * @param {Novel} novel 
  */
-function createText(text, strong = false) {
-    let cardText = document.createElement('p')
-    cardText.classList.add('card-text')
-    let textLengthWidth = (window.innerWidth / 10)
-    if (textLengthWidth > 130)
-        textLengthWidth -= 90
-    console.log(text.length > textLengthWidth)
-    if (text.length > textLengthWidth) {
-        let toggleBtn = document.createElement('a')
-        collapseText(text, textLengthWidth, cardText, toggleBtn)
-        cardText.appendChild(toggleBtn)
-    } else {
-        cardText.textContent = text
-    }
-    if (strong)
-        cardText.style.fontWeight = 'bold'
-    return cardText
+function createDetails(novel) {
+    let container = document.createElement('div')
+    container.appendChild(createText(`Chapters: ${novel.details.chaptersInfo.totalChapters}`))
+    container.appendChild(createText(`Score: ${novel.details.reviews.totalScore}, ${novel.details.reviews.totalReviewNum} reviews`))
+    container.appendChild(createText(`Gifts: ${novel.details.gifts.numOfGifts}`))
+    container.appendChild(createText(`Rank: ${novel.details.rankInfo.currentRank}, ${novel.details.rankInfo.powerVotes} power stones`))
+    return container
 }
-
-/** 
- * @param {Array} tags 
- */
-function createTag(tag) {
-    let badge = document.createElement('span')
-    badge.classList.add('badge', 'badge-primary')
-    badge.textContent = tag.name
-    return badge
-}
-
-/**
- * https://stackoverflow.com/questions/1411199/what-is-a-better-way-to-sort-by-a-5-star-rating
- * @param {Novel} novel 
- */
-function getWeightedRating(novel) {
-    let minimumVotes = 10
-    let meanVote = 3.0
-    return (novel.score * novel.numberOfRatings + meanVote * minimumVotes) / (novel.numberOfRatings + minimumVotes)
-}
-
-let tests = [{
-        score: 3.0,
-        numberOfRatings: 20
-    }, {
-        score: 3.5,
-        numberOfRatings: 15
-    }, {
-        score: 4.3,
-        numberOfRatings: 10
-    },
-    {
-        score: 4.8,
-        numberOfRatings: 100
-    }, {
-        score: 4.9,
-        numberOfRatings: 50
-    }, {
-        score: 4.4,
-        numberOfRatings: 40
-    },
-]
-console.log(tests.map(test => getWeightedRating(test)))
 
 class Novel {
     /**
@@ -266,8 +210,9 @@ class Novel {
      * @param {String} author 
      * @param {Number} score 
      * @param {Array} tags 
+     * @param {Details} details
      */
-    constructor(id, name, description, mainCategoryId, author, score, tags) {
+    constructor(id, name, description, mainCategoryId, author, score, tags, details) {
         this.id = id
         this.name = name
         this.description = description
@@ -275,5 +220,16 @@ class Novel {
         this.author = author
         this.score = score
         this.tags = tags
+        this.details = details
+    }
+}
+
+class Details {
+    constructor(chaptersInfo, gifts, rankInfo, reviews, updatedAt) {
+        this.chaptersInfo = chaptersInfo;
+        this.gifts = gifts;
+        this.rankInfo = rankInfo;
+        this.reviews = reviews;
+        this.updatedAt = updatedAt;
     }
 }

@@ -38,6 +38,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         excludedTags.length = 0
         document.querySelector('#list').innerHTML = ""
         document.querySelectorAll('.autocomplete_selected').forEach(el => el.innerHTML = "")
+        let sortSelection = document.querySelector('#sort')
+        sortSelection.selectedIndex = 0
+        sortSelection.disabled = false
         reset()
     })
 })

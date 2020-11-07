@@ -38,3 +38,35 @@ function collapseText(fullText, length, textDiv, toggleButton) {
         textDiv.appendChild(toggleButton) // textContent removes all the children
     })
 }
+
+/**
+ * @param {Novel} novel 
+ */
+function createText(text, strong = false) {
+    let cardText = document.createElement('p')
+    cardText.classList.add('card-text')
+    let textLengthWidth = (window.innerWidth / 10)
+    if (textLengthWidth > 130)
+        textLengthWidth -= 90
+    console.log(text.length > textLengthWidth)
+    if (text.length > textLengthWidth) {
+        let toggleBtn = document.createElement('a')
+        collapseText(text, textLengthWidth, cardText, toggleBtn)
+        cardText.appendChild(toggleBtn)
+    } else {
+        cardText.textContent = text
+    }
+    if (strong)
+        cardText.style.fontWeight = 'bold'
+    return cardText
+}
+
+/** 
+ * @param {Array} tags 
+ */
+function createTag(tag) {
+    let badge = document.createElement('span')
+    badge.classList.add('badge', 'badge-primary')
+    badge.textContent = tag.name
+    return badge
+}

@@ -10,8 +10,7 @@ function sort(list, sortType) {
     console.log(sortType)
     switch (sortType) {
         case '0': // Rating
-            console.log('0')
-            orderedList = list.sort((first, second) => second.score - first.score)
+            orderedList = list.sort((first, second) => getWeightedRating(first.score) - getWeightedRating(second.score))
             break;
         case '1': // Views
             console.log('1')
@@ -44,3 +43,36 @@ function sort(list, sortType) {
     console.log(orderedList)
     return orderedList
 }
+
+/**
+ * https://stackoverflow.com/questions/1411199/what-is-a-better-way-to-sort-by-a-5-star-rating
+ * @param {Novel} novel 
+ */
+function getWeightedRating(novel) {
+    let minimumVotes = 30
+    let meanVote = 3.0
+    return (novel.score * novel.numberOfRatings + meanVote * minimumVotes) / (novel.numberOfRatings + minimumVotes)
+}
+
+let tests = [{
+        score: 3.0,
+        numberOfRatings: 20
+    }, {
+        score: 3.5,
+        numberOfRatings: 15
+    }, {
+        score: 4.3,
+        numberOfRatings: 10
+    },
+    {
+        score: 4.8,
+        numberOfRatings: 100
+    }, {
+        score: 4.9,
+        numberOfRatings: 50
+    }, {
+        score: 4.4,
+        numberOfRatings: 40
+    },
+]
+console.log(tests.map(test => getWeightedRating(test)))
