@@ -70,7 +70,6 @@ function loadList(selectedCategories, excludedCategories, selectedTags, excluded
  * @param {Novel[]} novels 
  */
 function filterNovels(novels, tagLists) {
-    console.log(novels.length)
     let keyword = document.querySelector('#keyword').value.trim().toLowerCase()
     let keywordSearchType = document.querySelector('#swcKeywordAnd').checked
     let tagsSearchType = document.querySelector('#swcTagsAnd').checked
@@ -81,8 +80,6 @@ function filterNovels(novels, tagLists) {
         document.querySelector('#chkAuthor').checked,
         document.querySelector('#chkTag').checked
     ]
-    console.log(selectedKeyboardSearches)
-    console.log(novels.map(novel => keywordSearchFilters.some((filter, index) => selectedKeyboardSearches[index] && filter(novel, keyword))).filter(asd => asd))
 
     return novels
         // Check that the novel does't contain even one of the excluded categories
@@ -121,7 +118,7 @@ function addListeners(found) {
     sortListener = (event) => {
         page = 1
         document.querySelector('#list').innerHTML = ""
-        loadFiltered(sort(found, event.target.value), 1)
+        loadFiltered(sort(found, event.target.value), 0)
     }
     sortSelection.addEventListener('change', sortListener)
 }
@@ -198,38 +195,4 @@ function createDetails(novel) {
     container.appendChild(createText(`Gifts: ${novel.details.gifts.numOfGifts}`))
     container.appendChild(createText(`Rank: ${novel.details.rankInfo.currentRank}, ${novel.details.rankInfo.powerVotes} power stones`))
     return container
-}
-
-class Novel {
-    /**
-     * 
-     * @param {String} id 
-     * @param {String} name 
-     * @param {String} description 
-     * @param {Number} mainCategoryId 
-     * @param {String} author 
-     * @param {Number} score 
-     * @param {Array} tags 
-     * @param {Details} details
-     */
-    constructor(id, name, description, mainCategoryId, author, score, tags, details) {
-        this.id = id
-        this.name = name
-        this.description = description
-        this.mainCategoryId = mainCategoryId
-        this.author = author
-        this.score = score
-        this.tags = tags
-        this.details = details
-    }
-}
-
-class Details {
-    constructor(chaptersInfo, gifts, rankInfo, reviews, updatedAt) {
-        this.chaptersInfo = chaptersInfo;
-        this.gifts = gifts;
-        this.rankInfo = rankInfo;
-        this.reviews = reviews;
-        this.updatedAt = updatedAt;
-    }
 }

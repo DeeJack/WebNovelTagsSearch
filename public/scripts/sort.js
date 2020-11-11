@@ -7,24 +7,24 @@ function sort(list, sortType) {
     if (!sortType || !list)
         return list
     let orderedList = list
-    console.log(sortType)
     switch (sortType) {
         case '0': // Rating
-            orderedList = list.sort((first, second) => getWeightedRating(first.score) - getWeightedRating(second.score))
+            orderedList = list.filter(novel => novel.details !== undefined).sort((first, second) => getWeightedRating(second) - getWeightedRating(first))
+            orderedList.push(list.filter(novel => !novel.details))
             break;
-        case '1': // Views
+        case '1': // Views, not included in the details :(
             console.log('1')
             break;
-        case '2': // Collections
+        case '2': // Collections, not included in the details :(
             console.log('2')
             break;
         case '3': // Total chapters
-            console.log('3')
+            orderedList = list.filter(novel => novel.details !== undefined).sort((first, second) => second.details.chaptersInfo.totalChapters - first.details.chaptersInfo.totalChapters)
+            orderedList.push(list.filter(novel => !novel.details))
             break;
-        case '4': // Last update
-            console.log('4')
+        case '4': // Last update, removed since the last update changes too fast, it needs to be refreshed a lot
             break;
-        case '5': // Power stones
+        case '5': // Random
             for (let i = 0; i < list.length; i++) {
                 const rnd = Math.floor(Math.random() * (i + 1))
                 let temp = orderedList[i]
@@ -33,8 +33,7 @@ function sort(list, sortType) {
             }
             console.log('5')
             break;
-        case '6': // Random
-            console.log('6')
+        case '6': // Power stones, removed since the powerstones are an index of popularity, they need to be refreshed a lot
             break;
         default:
             console.error(`Sort type ${sortType} not found!`)
@@ -51,28 +50,8 @@ function sort(list, sortType) {
 function getWeightedRating(novel) {
     let minimumVotes = 30
     let meanVote = 3.0
-    return (novel.score * novel.numberOfRatings + meanVote * minimumVotes) / (novel.numberOfRatings + minimumVotes)
+    if (!novel.details)
+        return -1
+    let reviewsNum = novel.details.reviews.totalReviewNum
+    return (novel.details.reviews.totalScore * reviewsNum + meanVote * minimumVotes) / (reviewsNum + minimumVotes)
 }
-
-let tests = [{
-        score: 3.0,
-        numberOfRatings: 20
-    }, {
-        score: 3.5,
-        numberOfRatings: 15
-    }, {
-        score: 4.3,
-        numberOfRatings: 10
-    },
-    {
-        score: 4.8,
-        numberOfRatings: 100
-    }, {
-        score: 4.9,
-        numberOfRatings: 50
-    }, {
-        score: 4.4,
-        numberOfRatings: 40
-    },
-]
-console.log(tests.map(test => getWeightedRating(test)))
