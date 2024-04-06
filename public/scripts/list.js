@@ -180,7 +180,8 @@ function createListItem(novel) {
     }
 
     cardBody.appendChild(createText(`Description: ${novel.description}`))
-    card.append(img, cardBody)
+    // card.append(img, cardBody)
+    card.append(cardBody)
     column.appendChild(card)
     return column
 }
